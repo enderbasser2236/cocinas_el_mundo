@@ -1,0 +1,42 @@
+ /* side bar section */
+
+/* sideBar block********************************************************************** */
+
+.sideBar {
+  background: linear-gradient(0deg, rgb(31, 1, 1) 26%, rgb(245, 222, 179) 85%);
+  grid-area: sideBar;
+  display: inline-block;
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  right: 0;
+  overflow: auto;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+.sideBar__historia {
+  overflow: auto;
+  padding: 20px 20px;
+}
+
+/* contac form block*************************************************** */
+
+
+ .contactForm {
+   padding: 20px 20px;
+   padding-top: 50px;
+ }
+
+ .contactForm__item{
+   padding: 6px 0 6px;
+
+ }
+ .historyImg {
+   width: 100%;
+   padding: 20px 0 10px;
+ }
+
+

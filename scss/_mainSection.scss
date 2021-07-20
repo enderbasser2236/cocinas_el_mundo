@@ -1,0 +1,72 @@
+/* main section */
+
+/* main block******************************************************************************* */
+
+.principal--style{
+
+  padding: 50px;
+  line-height: 2rem;
+
+}
+
+.principal__subtitle {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.principal__autor {
+  text-align: right;
+}
+
+.principal__imgRef {
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+.principal__img2 {
+  border-radius: 20%;
+  border: solid 2px;
+  height: 80vh;
+  object-fit: cover;
+}
+
+main {
+  grid-area: main;
+}
+
+main p {
+  font-weight: 600;
+}
+
+
+
+#carousel P {
+  text-shadow: 3px 3px 2px #000000;
+  text-align: center;
+}
+
+#carousel h5 {
+  text-shadow: 3px 3px 2px #000000;
+}
+
+#ingrPrep {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ingPrepContent {
+  padding: 20px;
+}
+
+.carousel-icon-next{
+  background-image: url(https://icons-for-free.com/download-icon-next+right+icon-1320166862802397293_512.png);
+
+}
+
+.carousel-icon-prev{
+  background-image: url(https://icons-for-free.com/download-icon-left+previous+icon-1320166862746760425_512.png);
+  
+}

@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* RESET ************************************************************************************/
+* {
+  margin: unset;
+}
+
+/* IMPORT********************************************************************************** */
+/* backgrounds section */
+.background__principal {
+  background-image: url(../img/historia-comida.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background__francesa {
+  background-image: url(../img/cocina-francesa.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background__italiana {
+  background-image: url(../img/cocina-italiana.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background__mexicana {
+  background-image: url(../img/cocina-mexicana.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background__española {
+  background-image: url(../img/cocina-española.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background__venezolana {
+  background-image: url(../img/cocina-venezolana.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "header header" "main main" "footer footer";
+  z-index: 1;
+}
+
+hr {
+  border: 2px dashed #ff7b00;
+  width: 70%;
+  background: none;
+  opacity: 0.5;
+  border-top: 0;
+  margin: auto;
+}
+
+p {
+  padding: 20px 0 20px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+/* header section */
+/* header block ***************************************************************************************/
+.header {
+  grid-area: header;
+  background-image: url(../img/wood2.jpeg);
+  background-size: cover;
+  background-position-y: 100%;
+  color: #fff;
+  padding: 25px 25px;
+  position: relative;
+  z-index: 0;
+}
+
+.header__bigHeader {
+  color: #fff;
+  text-shadow: 3px 3px 2px #000000;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  display: inline-block;
+  position: relative;
+  left: 150px;
+}
+
+.header__img {
+  border: solid 1px;
+  border-color: black;
+  border-radius: 40%;
+  width: 140px;
+}
+
+#imgAnimation {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+.navMenu {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+/* main section */
+/* main block******************************************************************************* */
+.principal--style {
+  padding: 50px;
+  line-height: 2rem;
+}
+
+.principal__subtitle {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.principal__autor {
+  text-align: right;
+}
+
+.principal__imgRef {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.principal__img2 {
+  border-radius: 20%;
+  border: solid 2px;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main {
+  grid-area: main;
+}
+
+main p {
+  font-weight: 600;
+}
+
+#carousel P {
+  text-shadow: 3px 3px 2px #000000;
+  text-align: center;
+}
+
+#carousel h5 {
+  text-shadow: 3px 3px 2px #000000;
+}
+
+#ingrPrep {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ingPrepContent {
+  padding: 20px;
+}
+
+.carousel-icon-next {
+  background-image: url(https://icons-for-free.com/download-icon-next+right+icon-1320166862802397293_512.png);
+}
+
+.carousel-icon-prev {
+  background-image: url(https://icons-for-free.com/download-icon-left+previous+icon-1320166862746760425_512.png);
+}
+
+/* side bar section */
+/* sideBar block********************************************************************** */
+.sideBar {
+  background: linear-gradient(0deg, #1f0101 26%, wheat 85%);
+  grid-area: sideBar;
+  display: inline-block;
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  right: 0;
+  overflow: auto;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+.sideBar__historia {
+  overflow: auto;
+  padding: 20px 20px;
+}
+
+/* contac form block*************************************************** */
+.contactForm {
+  padding: 20px 20px;
+  padding-top: 50px;
+}
+
+.contactForm__item {
+  padding: 6px 0 6px;
+}
+
+.historyImg {
+  width: 100%;
+  padding: 20px 0 10px;
+}
+
+/* Footer section */
+.footerSection {
+  text-align: center;
+  background-image: url(../img/wood.jpeg);
+  color: #fff;
+  font-size: 1.1rem;
+  grid-area: footer;
+  padding: 20px;
+}
+
+.footerSection__copyRight {
+  text-align: center;
+  padding-top: 0;
+}
+
+.footerSection__menuFooter {
+  color: white;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+footer a:focus {
+  color: orange;
+}
+
+footer a:active {
+  color: teal;
+}
+
+footer a:visited {
+  text-decoration: none;
+}
+
+/* -------------------------------------------BLOQUES--------------------------------------- */
+/* los bloques se encuentran en su respectiva hoja de estilo SCSS********************************************************************************************************************************//*# sourceMappingURL=styles.css.map */

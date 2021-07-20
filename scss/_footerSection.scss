@@ -1,0 +1,35 @@
+/* Footer section */
+
+.footerSection {
+  text-align: center;
+  background-image: url(../img/wood.jpeg);
+  color: #fff;
+  font-size: 1.1rem;
+  grid-area: footer;
+  padding: 20px;
+}
+
+.footerSection__copyRight {
+  text-align: center;
+  padding-top: 0;
+}
+
+.footerSection__menuFooter {
+  color: white;
+}
+ 
+footer a:hover {
+   color: yellow;
+ }
+
+ footer a:focus {
+   color: orange;
+ }
+
+ footer a:active {
+   color: teal;
+ }
+
+ footer a:visited {
+   text-decoration: none;
+ }
