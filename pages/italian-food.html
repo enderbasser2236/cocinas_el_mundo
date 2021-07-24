@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cocina Italiana</title>
   <meta name="descripcion" content="cocina de Italia y sus respectivas recetas">
-  <meta name="keywords" content="cocina, recetas, historia, ingredientes, preparacion, italiana, lasaña, carpaccio, minestrone, pizza, rissoto, Ensalada, capresse">
+  <meta name="keywords"
+    content="cocina, recetas, historia, ingredientes, preparacion, italiana, lasaña, carpaccio, minestrone, pizza, rissoto, Ensalada, capresse">
   <!-- estilos ********************************************************************************-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -20,11 +21,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;900&display=swap"
     rel="stylesheet">
-     <!-- ANIMATIONS**************************************************************** -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-   />
+  <!-- ANIMATIONS**************************************************************** -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -37,7 +36,9 @@
     <div id="imgAnimation"><a href="../index.html"><img class="header__img" src="../img/logo.jpg"
           alt="logo-here"></a>
     </div>
-    <h1 class="header__bigHeader animate__animated animate__fadeInUp">Cocinas del Mundo</h1>
+    <div class="header__bigHeader">
+      <h1 class="animate__animated animate__fadeInUp">Italiana</h1>
+    </div>
 
     <!-- NAVBAR ********************************************************************************-->
 
@@ -78,13 +79,9 @@
 
 
 
-    <h2 class="principal__subtitle">Italiana</h2>
-
-
-
     <section id="carousel">
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
 
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -110,57 +107,62 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="principal__imgRef"><img src="../img/italiana/lasaña.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Lasaña">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#lasaña"
+                data-bs-toggle="modal" role="button"><img src="../img/italiana/lasaña.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Lasaña"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Lasaña</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur corrupti facilis ea tempore quisquam maxime impedit perspiciatis possimus earum, nihil aperiam deserunt, quidem tempora dolores corporis mollitia iusto quam?</p>
+                <p>La lasaña (italiano lasagna) es un tipo de pasta que se sirve en láminas, aunque también se denomina así a un famoso plato que tiene pasta en láminas intercaladas con carne (ragú o salsa boloñesa) y bechamel, llamado lasaña al horno.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"> <img src="../img/italiana/carpaccio.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Carpaccio">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#carpaccio"
+                data-bs-toggle="modal" role="button"><img src="../img/italiana/carpaccio.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Carpaccio"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Carpaccio</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magni architecto deserunt maxime dolorum molestiae minima sint vitae ducimus nulla soluta impedit perspiciatis porro, dolorem minus cupiditate id quia! Ex!</p>
+                <p>El carpaccio es un plato típico de la cocina italiana elaborado a base de láminas muy finas de carne o pescado crudo, aderezadas con aceite de oliva, sal, zumo de limón y otros condimentos. Suele estar acompañado de lascas de queso parmesano.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/italiana/minestrone.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Minestrone">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#minestrone"
+                data-bs-toggle="modal" role="button"><img src="../img/italiana/minestrone.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Minestrone"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Minestrone</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident repudiandae possimus soluta? Illo ab dicta, fugiat quod error delectus. Illo repellendus fugiat distinctio eaque architecto consequatur harum, dolores ad?.</p>
+                <p>Es una especialidad de la cocina italiana similar a una sopa elaborada con verduras de la época del año, como la tradicional sopa de verduras española.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img
-                src="../img/italiana/pizza.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Pizza">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#pizza"
+                data-bs-toggle="modal" role="button"><img src="../img/italiana/pizza.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Pizza"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Pizza</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quidem ullam cupiditate mollitia dignissimos assumenda optio exercitationem provident quibusdam saepe. Accusamus et, maiores vel ut sapiente rerum placeat fugit quasi?</p>
+                <p>La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que tradicionalmente se cubre con salsa de tomate y queso y se hornea a alta temperatura.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/italiana/rissoto.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Rissoto">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#rissoto"
+                data-bs-toggle="modal" role="button"><img src="../img/italiana/rissoto.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Rissoto"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Rissoto</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae autem voluptates enim rerum distinctio maiores laboriosam, impedit dolores accusantium, eum quibusdam ea, debitis similique aperiam ad? Perferendis architecto tenetur similique.</p>
+                <p>El “risotto” es uno de los platos de la cocina italiana más conocidos y apreciados internacionalmente. En Italia el risotto se suele servir como primer plato, como alternativa a la pasta o a los platos de cuchara.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/italiana/capresse.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Ensalada Capresse">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#capresse"
+                data-bs-toggle="modal" role="button"><img src="../img/italiana/capresse.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Ensalada Capresse"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Ensalada Capresse</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, consequuntur nihil! Recusandae, modi ab fugiat veritatis sunt dolores at fugit accusantium, rerum culpa aperiam facere ut totam. Deleniti, suscipit natus!</p>
+                <p>La ensalada caprese, o simplemente caprese, es una ensalada italiana (concretamente de Capri) compuesta de rodajas de tomate y de mozzarella fresca, y hojas de albahaca fresca, de la variedad "hoja grande" y "superhoja", regado con aceite de oliva.</p>
               </div>
             </div>
           </div>
@@ -179,49 +181,422 @@
 
     </section>
 
-    <br><br>
+    <p class="aviso"><strong>"Haz click en la imagen para obtener la receta"</strong></p>
 
-    <hr>
-    <!-- ingredientes y preparacion ****************************************************************-->
+    <!-- this is my MODAL SECTION*************************************************** -->
 
-    <section id="ingrPrep">
+    <div class="modal fade" id="lasaña" tabindex="-1" aria-hidden="true"
+      aria-labelledby="lasaña-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="lasaña-title">Receta de Lasaña
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-      <div class="ingPrepContent">
-        <h2>Ingredientes</h2>
+            <ul>
+              <li>12 láminas de lasaña</li>
+              <li>70 gramos de parmesano rallado</li>
+              <li>Mantequilla</li>
+              <li>300 gramos de carne picada (queda más jugosa con mezcla de cerdo y ternera)</li>
+              <li>Medio vaso de vino blanco</li>
+              <li>250 gramos de tomate entero pelado</li>
+              <li>1 zanahoria</li>
+              <li>1 cebolla</li>
+              <li>Aceite de oliva</li>
+              <li>Sal</li>
+              <li>Pimienta</li>
+            </ul>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            ​<h5>Para la bechamel:</h5>
+
+            <ul>
+              <li>50 gramos de mantequilla</li>
+              <li>50 gramos de harina</li>
+              <li>Medio litro de leche</li>
+              <li>Sal</li>
+              <li>Pimienta</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                En una cacerola calienta tres cucharadas de aceite de oliva y añade la zanahoria y
+                la
+                cebolla bien picadas. Cuando la cebolla esté bien dorada añadimos la carne y dejamos
+                que
+                también se dore.
+              </li>
+
+              <li>Entonces echamos el vaso de vino y dejamos que se evapore.</li>
+
+              <li>
+                Tras esto, añadimos los tomates cortados y sin pepitas, salpimentamos al gusto y
+                dejamos cocer la salsa durante media hora.
+              </li>
+
+              <li>
+                Mientras se cuece la salsa boloñesa podemos hacer la bechamel. En una sartén derrite
+                la mantequilla y añade la harina. Sin parar de remover en ningún momento ve
+                añadiendo
+                leche caliente hasta que la salsa comience a hervir. Añade la sal, reduce el fuego y
+                cocina durante unos veinte minutos. Tienes que remover para que no se formen grumos.
+                Salpimenta al gusto.
+              </li>
+              <li>
+                Pon las láminas de pasta en agua hirviendo con sal y cuando estén al dente,
+                colócalas
+                sobre un trapo (sepáralas para que no se peguen entre ellas).
+              </li>
+              <li>
+                Y llegamos a la parte final de la preparación, montar la lasaña. En una fuente para
+                el horno unta la base de mantequilla y cubre la base con una primera capa de pasta.
+                Añade una capa de salsa boloñesa, otra de bechamel, espolvorea con queso rallado,
+                pon un
+                poco de mantequilla y otra capa de pasta. Y así hasta terminar los ingredientes.
+                Puedes
+                corona la lasaña con una capa de carne, bechamel y queso, o con láminas de pasta.
+              </li>
+
+              <li>Introduce la lasaña en el horno y cocínala a 180 grados durante media hora.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-      <div class="ingPrepContent">
-        <h2>Preparacion</h2>
+    <div class="modal fade" id="carpaccio" tabindex="-1" aria-hidden="true"
+      aria-labelledby="carpaccio-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="carpaccio-title">Receta de Carpaccio
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <ul>
+              <li>500 gramos de lomo</li>
+              <li>Pimienta negra, recién molida</li>
+              <li>1 ½ pocillos de aceite de oliva extra-virgen</li>
+              <li>1 limón exprimido</li>
+              <li>Sal</li>
+              <li>Queso parmesano</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>Limpiar el lomo, separando la grasa y la membrana.</li>
+              <li>
+                Envolverlo en una hoja de papel aluminio y colocarlo en el congelador durante media
+                hora.
+              </li>
+              <li>Retirar y cortarlo en rodajas muy finas.</li>
+              <li>Disponer las láminas en una fuente formando hileras.</li>
+              <li>Condimentar con pimienta a gusto.</li>
+              <li>Cubrir con papel film y refrigerar.</li>
+              <li>
+                En un bol, colocar el aceite, el limón y añadir sal a gusto. Batir hasta que se
+                forme un
+                líquido espeso y opaco.
+              </li>
+              <li>Extraer la carne del refrigerador y rociar con el aderezo.</li>
+              <li>Taparla nuevamente y refrigerar durante 15 minutos como mínimo.</li>
+              <li>Servir y espolvorear con el queso parmesano.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-    </section>
+    <div class="modal fade" id="minestrone" tabindex="-1" aria-hidden="true"
+      aria-labelledby="minestrone-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="minestrone-title">Receta de Minestrone
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
+            <ul>
+              <li>30 gramos de judías verdes</li>
+              <li>75 gramos de tomates</li>
+              <li>Medio calabacín</li>
+              <li>75 gramos de alubias blancas</li>
+              <li>30 gramos de pasta integral</li>
+              <li>Caldo de verduras, unos tres vasos</li>
+              <li>1 cebolla de tamaño medio</li>
+              <li>1 diente de ajo</li>
+              <li>1 apio</li>
+              <li>1 zanahoria</li>
+              <li>1 hoja de laurel</li>
+              <li>varias hojas de albahaca fresca bien picada</li>
+              <li>Varias ramitas de perejil fresco bien picado</li>
+              <li>Una pizca de pimienta molida</li>
+              <li>Aceite y sal al gusto</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Pon las alubias en remojo en el caldo de verduras durante toda la noche el día
+                anterior
+                a la preparación de la sopa.
+              </li>
+              <li>
+                Al día siguiente, será el momento de preparar todas las verduras. Limpia, pela y
+                pica la
+                cebolla en juliana, el ajo troceado bien chiquitito y el resto de verduras los
+                tienes
+                que cortar en cuadrados pequeños.
+              </li>
+              <li>
+                En una cacerola pon dos cucharadas de aceite de oliva, cuando esté caliente se añade
+                la
+                cebolla y el ajo para que se sofrían un poco. Pasados unos breves minutos se
+                incorporan
+                el resto de verduras troceadas, excluyendo el tomate que tendremos que seguir
+                reservándolos, para que se sofrían bien hasta que estén blanditas.
+              </li>
+              <li>
+                En ese punto, se agregan las alubias en remojo junto con el caldo de verduras donde
+                han
+                pasado la noche. Añade el tomate troceado que has estado reservando y una hoja de
+                laurel.
+              </li>
+              <li>
+                Salpimienta todas las verduras y déjalo a fuego muy bajo durante un tiempo
+                aproximado de
+                una hora como mínimo.
+              </li>
+              <li>
+                Pasados esos 60 minutos, tienes que añadir la pasta y lo dejas al fuego unos 15
+                minutos
+                más, removiendo de vez en cuando.
+              </li>
+              <li>
+                Una vez que esté listo, prepara todos los platos porque hay que servirlo bien
+                caliente.
+                Antes de comenzar a servirlo y de que la sopa comience a hervir, añade sobre la
+                misma
+                sopa en la cacerola una cucharada de albahaca fresca y otra de perejil fresco.
+              </li>
+              <li>Ahora sí, a servir y disfrutar de este plato de cuchara tan potente.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="pizza" tabindex="-1" aria-hidden="true"
+      aria-labelledby="pizza-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="pizza-title">Receta de Pizza
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>2 tazas de harina</li>
+              <li>1 taza de Maizena</li>
+              <li>2 cucharadas de polvo de hornear</li>
+              <li>1 cucharadita de sal</li>
+              <li>1 taza de agua fría</li>
+              <li>1 cucharada de aceite</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>Encendé el horno.</li>
+              <li>Tamizá en un bol la harina, la Maizena, el polvo de hornear y la sal.</li>
+              <li>En el centro, colocá el agua fría y el aceite. Uní todo bien con un tenedor.</li>
+              <li>
+                En una pizzera de 30 cm. de diámetro vertí 4 cucharadas de aceite y extendé el
+                bollo,
+                acomodándolo con la palma de la mano hasta los bordes del molde.
+              </li>
+              <li>Presioná sobre toda la superficie con la yema de los dedos.</li>
+              <li>Cociná en horno caliente alrededor de 15 minutos.</li>
+              <li>
+                Mientras tanto, prepará una salsa de tomates, colocala sobre la masa ya cocida y
+                condimentala con orégano y ají molido.
+              </li>
+              <li>
+                Completá la pizza a gusto, ya sea con fetas de mozzarella o queso crema y anchoas,
+                jamón, aceitunas, etc.
+              </li>
+              <li>Horneá unos minutos más hasta que el queso se derrita.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="rissoto" tabindex="-1" aria-hidden="true"
+      aria-labelledby="rissoto-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="rissoto-title">Receta de Rissoto
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+            <ul>
+
+              <li>300 g de arroz arborio o carnaroli.</li>
+              <li>15 g de mantequillla.</li>
+              <li>15 g de aceite de girasol.</li>
+              <li>100 g de puerro.</li>
+              <li>125 g de vino blanco.</li>
+              <li>125 g de vino blanco.</li>
+              <li>una cucharadita de mostaza de Dijon.</li>
+              <li>1 litro de caldo de verduras.</li>
+              <li>125 g de queso cheddar.</li>
+              <li>perejil fresco.</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Limpiamos el puerro retirando la parte verde, la raíz y la capa exterior.
+              </li>
+              <li>Hacemos unos cortes en cada uno de los extremos, sin llegar al centro, y lo
+                lavamos
+                bien bajo un chorro de agua fría para retirar los posibles restos de arena que pueda
+                contener. </li>
+              <li>Cortamos en pequeños trozos. Calentamos la mantequilla y el aceite en una cacerola
+                y
+                pochamos el puerro durante unos cinco minutos. </li>
+              <li>Cuando esté blando, añadimos el arroz y removemos para que se mezcle bien. </li>
+              <li>Agregamos el vino blanco, la mostaza y removemos sin parar para que no se pegue a
+                la
+                base al tiempo que subimos la intensidad del fuego. </li>
+              <li>Cuando el alcohol se haya evaporado añadimos poco a poco el caldo de verduras, que
+                habrá de estar caliente durante todo el proceso. </li>
+              <li>Removemos para que el arroz suelte el almidón al tiempo que absorbe el caldo.
+                Después de unos 18 minutos retiramos la cacerola del fuego y añadimos el queso
+                Cheddar
+                cortado en pequeños dados. </li>
+              <li>Removemos para que se funda y servimos inmediatamente.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="capresse" tabindex="-1" aria-hidden="true"
+      aria-labelledby="capresse-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="capresse-title">Receta de Ensalada Capresse
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>2 unidades de Tomates perita</li>
+              <li>150 gramos de Mozzarella</li>
+              <li>20 hojas de Albahaca fresca</li>
+              <li>1 cucharadita de Sal</li>
+              <li>1 pizca de Pimienta negra</li>
+              <li>1 cucharada sopera de Aceite de oliva extra virgen</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Para esta ensalada italiana les aconsejo elegir tomates perita porque no expulsan tanto
+                jugo. Cortamos los tomates en rodajas, ni muy finas ni muy gruesas, y reservamos.
+              </li>
+              
+              <li>
+                Tomamos el queso mozzarella y lo cartamos en rodajas similares a las del tomate.
+                Reservamos.
+              </li>
+              
+              <li>
+                Por otro lado, para sazonar esta exquisita ensalada caprese, realizamos una preparación
+                con unas hojitas de albahaca fresca picada, aceite de oliva virgen extra, sal y pimienta
+                negra recién molida. Otra opción totalmente válida es condimentar la ensalada con salsa
+                pesto casera.
+              </li>
+              <li>
+                Por último, para la presentación de la ensalada, tomamos un plato o una fuente plana y
+                vamos acomodando los ingredientes intercalando una rodaja de tomate, una de mozzarella,
+                una hoja de albahaca fresca y así sucesivamente. Aderezamos con la preparación realizada
+                con anterioridad y espolvoreamos con un toque de pimienta en grano recién molida para
+                completar la decoración de esta deliciosa e irresistible ensalada caprese. Esta ensalada
+                se puede consumir sola como entrante, pero también, es ideal para acompañar cualquier
+                tipo de carne asada.
+              </li>
+            </ol>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- this is the end of my MODAL SECTION********************************************** -->
 
 
 
@@ -240,31 +615,94 @@
       <div class="historia">
 
 
-        <h3>Breve historia</h3>
+        <h3>Cocina Italiana</h3>
 
-        <img class="historyImg" src="../img/historia.jpg" alt="frenchHistoryImage">
+        <img class="historyImg"
+          src="https://blog-italia.com/wp-content/uploads/2009/04/queso_parmesano.jpg"
+          alt="italian food image">
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatum necessitatibus blanditiis similique eos consequuntur veniam sint illo laborum, perferendis eveniet omnis vitae? Omnis, dignissimos! Quod blanditiis fugiat perspiciatis quo.</p>
+        <p>
+          La gastronomía de Italia es una de las más variadas del mundo, sus cocinas reflejan ésta
+          gran variedad cultural en sus regiones así como la diversidad de su historia. La cocina
+          italiana está incluida dentro de las denominadas gastronomías mediterráneas y es tan
+          imitada
+          como practicada en todo el mundo. Es muy corriente que a la gastronomía de Italia se le
+          conozca por sus platos más famosos que son la pizza y la pasta, pero lo cierto es que es
+          una
+          cocina donde coexisten los abundantes aromas y los sabores del mediterráneo. Una bonita
+          forma de conocerlo es a través de sus museos gastronómicos y de sus productos de la
+          tierra.
+        </p>
 
+        <h5>Historia de la Gastronomía de Italia</h5>
+        <p>
+          Italia es un país que le ha exportado al mundo su gastronomía. La historia nos cuenta que
+          la
+          comida italiana recibió influencia de otros países, tales como Grecia, África y los países
+          asiáticos. Los griegos, africanos y asiáticos que se establecieron allá trajeron sus
+          comidas
+          y maneras de cocinar. Por ejemplo, los griegos hacían un pan plano, el cual, se imagina,
+          llevó a la creación de la pizza.
+        </p>
 
+        <p>
+          El hecho de comer, para los italianos, no es un acto sencillo, tiene un significado mayor.
+          Es un momento de socialización, un momento de unión con sus familiares y de esa unidad de
+          la
+          familia, se acredita, nacieron los platos ricos y variados.
+        </p>
 
+        <p>
+          En 1840, se introduce el parmesano a la gastronomía de Italia, el cual se usa en la mayor
+          parte de los platos italianos.
+        </p>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque consequatur deserunt
-          tempora itaque nobis exercitationem doloribus reiciendis nesciunt temporibus, rerum
-          cum
-          quo
-          architecto possimus adipisci sequi, necessitatibus porro maxime laudantium!
-          París, ciudad gastronómica
-          París era el centro creativo culinario en el mundo. Gradualmente la industria de la
-          hospitalidad
-          se estableció. Los
-          modales en la mesa y el sabor francés se volvieron un modelo internacional.</p>
+        <p>
+          Referente a la pasta de Italia, podemos contar que hay relatos de que Marco Polo trajo la
+          pasta del oriente. Pero, también se sabe que él volvió a Italia en el año 1295 y que antes
+          de esa fecha ya había informaciones de la existencia de la pasta. Algunos afirman que
+          fueron
+          los árabes que inventaron la pasta, pues conocieron al trigo antes de los italianos.
+        </p>
 
+        <p>
+          Bueno, hasta hoy todas estas historias son cuestionables, pero, de una cosa los
+          investigadores tienen certeza, el clima de Italia siempre fue bueno para el crecimiento
+          del
+          trigo duro, de donde viene la sémola. La sémola, se usa para hacer las pastas secas. Las
+          pastas secas se hicieron populares en los siglos XIV y XV y en el siglo XVII se hicieron
+          parte importante de la gastronomía de Italia, porque era un plato económico, que se podría
+          adquirir fácilmente y versátil. Pastas secas contienen solamente agua y sémola.
+        </p>
 
+        <p>
+          La gastronomía de Italia es magnífica. Es una comida rica, pues es compuesta de frutas,
+          legumbres, cereales, y especias que dan sabor. Y es una comida bella ya que hay una
+          historia
+          y un significado detrás de cada plato.
+          Ingredientes de la Gastronomía de Italia
+        </p>
 
+        <p>
+          La gastronomía italiana es rica en exquisitos platos únicos, tales como la pasta, las
+          verduras, las hortalizas o legumbres gozan de una cierta atención culinaria, adquiriendo,
+          respecto al medioevo, una nueva dimensión gracias sobre todo a un mayor recurso de los
+          aromas locales. Por otro lado ofrece también una gran variedad de carnes, pescados, quesos
+          con delicados aromas y cuidados postres, dependiendo de la población. Con todo ello, el
+          ingrediente presente en la mayoría de los platos es la pasta “seca” o cocida en caldo, los
+          diferentes tipos de arroz guisado, risottos, sopas, minestrones, etc.
+        </p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nulla dolores reprehenderit repellendus pariatur obcaecati quaerat dolor esse minus illo officiis ipsa earum quis saepe sit ipsam, temporibus consectetur. Id.</p>
+        <p>
+          Hay una gran elección de guisos y estofados además de la abundancia de platos con pastas
+          estiradas (como la lasaña) y rellenas de macarrones. En el terreno de las frutas, los
+          cítricos adquieren una posición prominente entre las comidas servidas como entradas.
+        </p>
 
+        <p>
+          Nada mejor que comprobar toda esta gran variedad de gastronómica propia de Italia en sus
+          propias recetas.
+        </p>
 
 
       </div>
@@ -334,4 +772,3 @@
 </body>
 
 </html>
-

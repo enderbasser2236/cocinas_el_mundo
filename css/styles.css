@@ -86,26 +86,31 @@ h6 {
   background-size: cover;
   background-position-y: 100%;
   color: #fff;
-  padding: 25px 25px;
+  padding: 10px 10px;
   position: relative;
   z-index: 0;
+  text-align: center;
 }
 
 .header__bigHeader {
   color: #fff;
   text-shadow: 3px 3px 2px #000000;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
   display: inline-block;
-  position: relative;
-  left: 150px;
+  padding-bottom: 30px;
 }
 
 .header__img {
   border: solid 1px;
   border-color: black;
   border-radius: 40%;
-  width: 140px;
+  width: 120px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  padding: 5px;
+  border: none;
 }
 
 #imgAnimation {
@@ -146,20 +151,24 @@ nav a:hover {
 }
 
 .principal__imgRef {
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
+  margin-left: 15%;
+}
+.principal__imgRef a {
+  text-decoration: none;
 }
 
 .principal__img2 {
   border-radius: 20%;
   border: solid 2px;
-  height: 80vh;
+  height: 70vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 main {
   grid-area: main;
+  padding: 20px 0;
 }
 
 main p {
@@ -175,22 +184,16 @@ main p {
   text-shadow: 3px 3px 2px #000000;
 }
 
-#ingrPrep {
-  padding-top: 15px;
-  display: flex;
-  flex-direction: row;
-}
-
-.ingPrepContent {
-  padding: 20px;
-}
-
 .carousel-icon-next {
   background-image: url(https://icons-for-free.com/download-icon-next+right+icon-1320166862802397293_512.png);
 }
 
 .carousel-icon-prev {
   background-image: url(https://icons-for-free.com/download-icon-left+previous+icon-1320166862746760425_512.png);
+}
+
+.aviso {
+  text-align: center;
 }
 
 /* side bar section */
@@ -237,12 +240,12 @@ main p {
   color: #fff;
   font-size: 1.1rem;
   grid-area: footer;
-  padding: 20px;
+  padding: 10px;
 }
 
 .footerSection__copyRight {
   text-align: center;
-  padding-top: 0;
+  padding: 0;
 }
 
 .footerSection__menuFooter {

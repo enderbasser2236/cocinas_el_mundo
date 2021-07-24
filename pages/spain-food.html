@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cocina Española</title>
   <meta name="descripcion" content="cocina de España y sus respectivas recetas">
-  <meta name="keywords" content="cocina, recetas, historia, ingredientes, preparacion, española, paella, tortilla, patatas, gambas, ajillo, merluza, salsa, verde, pulpo, gallega, rabo, toro">
+  <meta name="keywords"
+    content="cocina, recetas, historia, ingredientes, preparacion, española, paella, tortilla, patatas, gambas, ajillo, merluza, salsa, verde, pulpo, gallega, rabo, toro">
   <!-- estilos ********************************************************************************-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -20,11 +21,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;900&display=swap"
     rel="stylesheet">
-     <!-- ANIMATIONS**************************************************************** -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-   />
+  <!-- ANIMATIONS**************************************************************** -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -37,7 +36,9 @@
     <div id="imgAnimation"><a href="../index.html"><img class="header__img" src="../img/logo.jpg"
           alt="logo-here"></a>
     </div>
-    <h1 class="header__bigHeader animate__animated animate__fadeInUp">Cocinas del Mundo</h1>
+    <div class="header__bigHeader">
+      <h1 class="animate__animated animate__fadeInUp">Española</h1>
+    </div>
 
     <!-- NAVBAR ********************************************************************************-->
 
@@ -78,13 +79,9 @@
 
 
 
-    <h2 class="principal__subtitle">Española</h2>
-
-
-
     <section id="carousel">
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
 
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -110,56 +107,77 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="principal__imgRef"><img src="../img/española/paella.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Paella">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#paella"
+                data-bs-toggle="modal" role="button"><img src="../img/española/paella.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Paella"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Paella</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur corrupti facilis ea tempore quisquam maxime impedit perspiciatis possimus earum, nihil aperiam deserunt, quidem tempora dolores corporis mollitia iusto quam?</p>
+                <p>La paella es una comida de plato único con base de arroz originaria de la región
+                  de Valencia, España, en la costa mediterránea. la mayoría de los españoles diría
+                  que la paella verdaderamente auténtica está hecha con mariscos.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"> <img src="../img/española/tortilla patatas.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Tortilla de Patatas">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#tortilla"
+                data-bs-toggle="modal" role="button"><img src="../img/española/tortilla patatas.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Tortilla de Patatas"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Tortilla de Patatas</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magni architecto deserunt maxime dolorum molestiae minima sint vitae ducimus nulla soluta impedit perspiciatis porro, dolorem minus cupiditate id quia! Ex!</p>
+                <p>La tradicional receta de tortilla de patatas o tortilla española, un plato básico
+                  de la cocina española a base de patatas, huevo y cebolla</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/española/gambas al ajillo.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Gambas al Ajillo">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#gambas"
+                data-bs-toggle="modal" role="button"><img src="../img/española/gambas al ajillo.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Gambas al Ajillo"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Gambas al Ajillo</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident repudiandae possimus soluta? Illo ab dicta, fugiat quod error delectus. Illo repellendus fugiat distinctio eaque architecto consequatur harum, dolores ad?.</p>
+                <p>Las gambas al ajillo, como se denominan en España, son un plato popular de la
+                  cocina española que suele encontrarse mayoritariamente en el sur y centro del
+                  territorio. Los ingredientes que constituyen este plato son gambas peladas, ajo y
+                  aceite de oliva.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/española/merluza en salsa verde.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Merluza en salsa verde">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#merluza"
+                data-bs-toggle="modal" role="button"><img
+                  src="../img/española/merluza en salsa verde.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Merluza en salsa verde"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Merluza en salsa verde</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quidem ullam cupiditate mollitia dignissimos assumenda optio exercitationem provident quibusdam saepe. Accusamus et, maiores vel ut sapiente rerum placeat fugit quasi?</p>
+                <p>La merluza en salsa verde es un plato de la cocina vasca cuyo principal
+                  ingrediente es la merluza (Merluccius merluccius) acompañado de una salsa verde y
+                  almejas.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/española/pulpo a la gallega.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Pulpo a la gallega">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#pulpo"
+                data-bs-toggle="modal" role="button"><img
+                  src="../img/española/pulpo a la gallega.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Pulpo a la gallega"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Pulpo a la gallega</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae autem voluptates enim rerum distinctio maiores laboriosam, impedit dolores accusantium, eum quibusdam ea, debitis similique aperiam ad? Perferendis architecto tenetur similique.</p>
+                <p>El pulpo a la gallega es un plato tradicional de Galicia y básico en su
+                  gastronomía,​ aunque su consumo se ha generalizado por toda España. Se trata de un
+                  plato festivo elaborado con pulpo cocido entero que está presente en las fiestas,
+                  ferias y romerías de Galicia</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/española/rabo de toro.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Rabo de toro">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#rabo"
+                data-bs-toggle="modal" role="button"><img src="../img/española/rabo de toro.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Rabo de toro"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Rabo de toro</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, consequuntur nihil! Recusandae, modi ab fugiat veritatis sunt dolores at fugit accusantium, rerum culpa aperiam facere ut totam. Deleniti, suscipit natus!</p>
+                <p>El rabo de toro es un guiso típico cordobés consistente en estofado de rabo de
+                  vaca o toro. Se trata de un ragú que se cocina frecuentemente en diversas cocinas
+                  andaluzas.</p>
               </div>
             </div>
           </div>
@@ -178,52 +196,563 @@
 
     </section>
 
-    <br><br>
+    <p class="aviso"><strong>"Haz click en la imagen para obtener la receta"</strong></p>
 
-    <hr>
-    <!-- ingredientes y preparacion ****************************************************************-->
+    <!-- this is my MODAL SECTION*************************************************** -->
 
-    <section id="ingrPrep">
+    <div class="modal fade" id="paella" tabindex="-1" aria-hidden="true"
+      aria-labelledby="paella-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="paella-title">Receta Paella
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
 
-      <div class="ingPrepContent">
-        <h2>Ingredientes</h2>
+            <h3>Ingredientes.</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <ul>
+              <li>Aceite 3 cdas. (45 cc)</li>
+              <li>Cebolla 2 unidades (240 g)</li>
+              <li>Ajo 2 dientes (10 g)</li>
+              <li>Pimiento verde ½ unidad (45 g)</li>
+              <li>Pimiento rojo ½ unidad (45 g)</li>
+              <li>Calamares 300 g.</li>
+              <li>Vino blanco ½ taza (125 cc)</li>
+              <li>Tomate 2 unidades</li>
+              <li>Arroz grano medio 4 tacitas (280 g)</li>
+              <li>Caldo de Verdura ALICANTE 1 sobre</li>
+              <li>Azafrán Molido ALICANTE 1 cápsula</li>
+              <li>Agua 10 tacitas</li>
+              <li>Mejillones 200 g.</li>
+              <li>Almejas 200 g.</li>
+              <li>Camarones 150 g.</li>
+              <li>Vieiras 150 g.</li>
+              <li>Berberechos 150 g.</li>
+              <li>Langostinos 8 unidades (80 g)</li>
+              <li>Para decorar :</li>
+              <li>Arvejas 150 g.</li>
+              <li>Pimiento rojo asado o en lata 1 unidad (90 g)</li>
+              <li>Perejil Deshidratado ALICANTE 1 unidad</li>
+              <li>Ají Triturado ALICANTE ½ cda.</li>
+              <li>Limón 1 unidad</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Para empezar picá la cebolla, el ajo y los pimientos en cubitos bien pequeños.
+                Cocinalos
+                en un recipiente de 40 cm. de diámetro aproximadamente con un poquito de aceite
+                hasta
+                lograr que las verduras tomen color, unos 10 minutos más o menos.
+              </li>
+              <li>
+                Cortá los calamares en de 1cm. de espesor y añadilos a la paella, cocinalos por unos
+                5
+                minutos. Agregá el vino y el tomate en cubos previamente pelado y sin semillas.
+              </li>
+              <li>
+                Cociná todo a fuego bajo por unos 20 minutos y recién pasado ese tiempo podés
+                agregar el
+                arroz. Junto al arroz incorporá el Caldo de Verduras y el Azafrán Molido Alicante
+                (antes
+                de incorporar el caldo y el azafrán diluilos en agua para que se integren de manera
+                pareja en la preparación).
+              </li>
+              <li>
+                Mezclá todo con ayuda de una cuchara de madera, dejá de mezclar y cociná todo 10
+                minutos. Pasados los 10 minutos incorporá los mariscos y cociná por 5 minutos más.
+                Condimentá con un poco de Ají Triturado Alicante.
+              </li>
+              <li>
+                Agregá las arvejas, los pimientos asados (podés usar los que vienen en lata o cortar
+                pimientos en tiritas no muy finas y cocinarlos en una sartén con un poco de aceite
+                unos
+                15 minutos a fuego medio hasta que se tiernicen) y el Perejil Deshidratado Alicante.
+              </li>
+              <li>
+                Apagá el fuego y dejá reposar la paella unos minutos antes de servirla. Podés de
+                corarla
+                con unas rodajas de limón en el emplatado final.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-      <div class="ingPrepContent">
-        <h2>Preparacion</h2>
+    <div class="modal fade" id="tortilla" tabindex="-1" aria-hidden="true"
+      aria-labelledby="tortilla-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="tortilla-title">Receta de Tortilla Patatas
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <ul>
+              <li>6 huevos</li>
+              <li>3 patatas (600 gr)</li>
+              <li>1 cebolla pequeña</li>
+              <li>1 pimiento verde</li>
+              <li>2 vasos de aceite de oliva</li>
+              <li>sal</li>
+              <li>una hoja de perejil</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Pela y pica la cebolla en dados medianos. Limpia el pimiento verde, retírale el
+                tallo y
+                las pepitas y córtalo en dados.
+              </li>
+              <li>
+                Si las patatas estuvieran sucias, pásalas por agua. Pélalas, córtalas por la mitad a
+                lo
+                largo y después corta cada trozo en medias lunas finas de 1/2 centímetros.
+              </li>
+              <li>
+                Introduce todo en la sartén, sazona a tu gusto y fríe a fuego suave durante 25-30
+                minutos.
+              </li>
+              <li>
+                Retira la fritada y escúrrela. Pasa el aceite a un recipiente y resérvalo. Limpia la
+                sartén con papel absorbente de cocina.
+              </li>
+              <li>
+                Casca los huevos, colócalos en un recipiente grande y bátelos. Sálalos a tu gusto,
+                agrega la fritada de patatas, cebolla y pimiento y mezcla bien.
+              </li>
+              <li>
+                Coloca la sartén nuevamente en el fuego, agrega un chorrito del aceite reservado y
+                agrega la mezcla. Remueve un poco con una cuchara de madera y espera (20 segundos) a
+                que
+                empiece a cuajarse.
+              </li>
+              <li>
+                Separa los bordes, cubre la sartén con un plato de mayor diámetro que la sartén y
+                dale
+                la vuelta.
+              </li>
+              <li>Échala de nuevo para que cuaje por el otro lado.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-    </section>
+    <div class="modal fade" id="gambas" tabindex="-1" aria-hidden="true"
+      aria-labelledby="gambas-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="gambas-title">Receta de Gambas al Ajillo
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>1 kg. de gamba congelada o fresca</li>
+              <li>20 dientes de ajos</li>
+              <li>2 guindillas secas (también valen las pimientas de cayena)</li>
+              <li>Aceite de oliva virgen extra (unas 20 cucharadas)</li>
+              <li>Sal y pimienta negra recién molida (al gusto)</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <h5>limpieza de Gambas</h5>
+
+            <ol>
+              <li>
+                Antes de empezar con la receta. Limpieza de las gambas
+                Tenemos dos opciones gamba fresca o congelada. Si las gamba es
+                fresca les sacamos la cabeza y cola. Si están peladas este paso lo obviáis.
+              </li>
+
+              <li>
+                Ponemos las gambas en un cuenco y lavamos para retirar impurezas. Secamos con un
+                trapo
+                de algodón o papel absorbente.
+              </li>
+
+              <li>
+                Si la gamba es congelada, lo mejor es dejarlas el día antes en la nevera y que se
+                descongelen poco a poco. Utilizamos para ello un bol con un colador o cualquier otro
+                recipiente en el que el agua pueda escurrirse sin estar en contacto con las gambas.
+              </li>
+
+              <li>
+                Escurrimos bien el agua al día siguiente. Secamos al igual que si fuesen frescas.
+                En cualquiera de las 2 opciones le quitamos el intestino y sazonamos con sal al
+                gusto.
+                Reservamos.
+              </li>
+            </ol>
+
+            <h5>Preparación de las gambas al ajillo</h5>
+
+            <ol>
+              <li>
+                En una cazuela (de barro si tenéis, sino en una de las que tengáis en casa) y
+                ponemos
+                el
+                aceite de oliva virgen extra con las guindillas.
+              </li>
+              <li>
+                Pelamos los dientes de ajo y cortamos en rodajas finitas. Calentamos y doramos los
+                dientes de ajo laminados, que se doren, no queremos que nos den un sabor quemado.
+              </li>
+              <li>
+                Un truco es retirar estos ajos (casi chips) y seguir con la receta, se incorporarían
+                al
+                final del todo. Así logramos el ajo en su punto y se hidrata con parte del caldo que
+                suelta la gamba. La perfección en las gambas al ajillo.
+              </li>
+              <li>
+                Echamos las gambas previamente escurridas al aceite. Subimos la temperatura y
+                salpimentamos al gusto. En un minuto el aceite cambiará de color, no os asustéis, la
+                gamba suelta su caldo y con la temperatura, emulsiona.
+              </li>
+              <li>
+                Añadimos las guindillas y los ajos. Removemos e juntamos sabores. Servimos
+                inmediatamente en cuanto esté la gamba en su punto justo de cocción, jugosa y con
+                ese
+                punto picante delicioso. No os queméis, el aceite va casi hirviendo. Acompañarlas de
+                un
+                buen pan y un buen vino blanco bien fresquito.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="merluza" tabindex="-1" aria-hidden="true"
+      aria-labelledby="merluza-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="merluza-title">Receta de Merluza en Salsa Verde
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3><br>
+
+            <ul>
+              <li>10 rodajas de merluza (dos dedos de grosor), un 2 k. aproximadamente</li>
+              <li>6 dientes de ajo</li>
+              <li>300 g. de guisantes</li>
+              <li>Un vaso de vino blanco, unos 150 ml. (Os recomiendo un vinito de mi tierra, un
+                godello o</li>
+              <li>ribeiro pero sino que sea un buen vino)</li>
+              <li>100 ml de caldo de pescado</li>
+              <li>2 cucharadas de harina de trigo</li>
+              <li>6 cucharadas de aceite de oliva virgen extra</li>
+              <li>5 huevos duros tamaño mediano</li>
+              <li>4 cucharadas con perejil picado</li>
+              <li>Sal (al gusto de cada casa)</li>
+            </ul>
 
 
+            <h3>Preparacion.</h3><br>
 
+            <h5>Preparacion de la Merluza</h5>
 
+            <ol>
+              <li>
+                Lo importante en esta receta es elegir bien su ingrediente principal: la merluza. Id
+                a
+                vuestro pescadero de confianza y que os recomiende una buena, que os la corte en
+                rodajas
+                de dos dedos aproximadamente de grosor.
+                Si queremos que este plato lo coman los pequeños de la casa podemos emplear lomos
+                congelados sin espinas. Siempre que los descongelemos de manera correcta, es decir,
+                en
+                la parte baja de la nevera 24 horas antes.
+              </li>
+              <li>
+                Esta es una opción para que los peques coman pescado. Al ser sin espinas os aseguro
+                que
+                os pedirán este plato más de una vez. Además la merluza les suele gustar pues tiene
+                un
+                sabor suave y un olor poco pronunciado.
+              </li>
+              <li>
+                En esta receta lo mejor es usar una cazuela de barro bastante grande donde quepan
+                todas
+                las rodajas, aunque si tenéis una cazuela baja os valdrá de igual forma. La cocción
+                es
+                más lenta en la de barro pero os saldrá bien de igual forma.
+              </li>
+              <li>Salamos las rodajas de merluza por ambos lados. Reservamos.</li>
+              <li>
+                Pelamos los dientes de ajo y los picamos muy muy finos. Lavamos el perejil, lo
+                sacudimos
+                bien para que se seque un poco. Luego lo picamos muy finamente con un buen cuchillo
+                hasta que nos queden unas tres cucharadas del mismo. Reservamos.
+              </li>
+            </ol>
+
+            <h5>Preparacion de la Salsa</h5>
+
+            <ol>
+              <li>
+                A continuación, ponemos en una cazuela de barro o una cazuela baja el aceite de
+                oliva
+                virgen extra al fuego con los ajos muy picados.
+              </li>
+              <li>
+                Cuando estos comiencen a dorarse, vigila
+                que no se quemen, añadimos la harina y cocinamos un poco, medio minuto llega.
+              </li>
+              <li>
+                Antes de
+                que tome color añadimos el vino blanco y removemos bien con una cuchara de madera.
+                Acto seguido echamos el caldo de pescado caliente, si no tiene sal es hora de
+                añadirle
+                una pizca. Dejamos hervir un minuto e introducimos el perejil picado.
+              </li>
+              <li>
+                Incorporamos las rodajas de merluza junto con los guisantes (yo empleé de lata con
+                lo
+                que es suficiente que se calienten en el caldo).
+              </li>
+              <li>
+                Dejamos que se cocinen por una de sus
+                caras durante unos tres minutos de reloj, no os paséis para que no se estropee la
+                merluza.
+              </li>
+              <li>
+                En este proceso debemos menear la cazuela suavemente durante toda la cocción del
+                pescado
+                para que la salsa vaya ligando. A los cinco minutos de haber dado la vuelta a la
+                merluza, ya está hecha. Probamos de sal, por si tenemos que rectificar.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="pulpo" tabindex="-1" aria-hidden="true"
+      aria-labelledby="pulpo-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="pulpo-title">Receta de Pulpo a la Gallega
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>1 pulpo de 2 a 3 kg.</li>
+              <li>1 kg de patatas gallegas</li>
+              <li>Sal gruesa (al gusto)</li>
+              <li>Pimentón dulce o picante (o mixto, depende del gusto de cada uno)</li>
+              <li>Aceite de oliva virgen extra</li>
+              <li>Agua</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <h5>Preparación del pulpo.</h5>
+
+            <ol>
+              <li>
+                Es muy importante ablandar el pulpo antes de cocinarlo, he visto como lo hacían
+                golpeándolo contra la piedra en la Isla de Ons. Pero por suerte si lo congelamos el
+                resultado es prácticamente el mismo. Ayuda a que la carne quede más tierna. Así que
+                lo
+                único que debemos hacer es congelarlo si lo hemos comprado fresco o comprarlo
+                directamente congelado.
+              </li>
+              <li>
+                Sacamos el pulpo un día antes del congelador y lo pasamos al frigorífico para que se
+                descongele. Es importante hacerlo en una cazuela o un bol grande pues va a soltar
+                mucho
+                líquido y puede desbordar.
+              </li>
+              <li>
+                A la hora de cocinar lo pasamos un poco por agua fría para quitar posibles
+                impurezas.
+                Ponemos una cazuela (la más grande que tengamos) al fuego con agua, no añadimos sal
+                pues
+                el pulpo se sala al final, en la presentación.
+              </li>
+              <li>
+                Cuando rompa a hervir añadimos el pulpo, lo cogemos por la cabeza y “lo asustamos”,
+                esta
+                técnica consiste en meter y sacar el pulpo 3 veces de la cazuela para conseguir que
+                el
+                pulpo se quede tieso y no se le caiga la piel durante la cocción.
+              </li>
+              <li>
+                Cocemos el pulpo durante unos 35-40 a fuego medio dependiendo del tamaño (lo normal
+                es
+                cocer un pulpo de 1,8 kg – 2 kg, con 30-35 es suficiente). En este caso, era un
+                pulpo
+                de
+                3 kilos, con lo que tuvimos que cocerlo desde que empezó a hervir unos 40 minutos.
+              </li>
+              <li>
+                Hay que pincharlo de vez en cuando para ver como está de duro. La primera vez que lo
+                cocinéis os costará cogerle el punto pero luego os saldrá de perlas.
+              </li>
+            </ol>
+
+            <h5>Preparación de las patatas y emplatado del pulpo a la gallega</h5>
+
+            <ol>
+              <li>Mientras está cociendo, pelamos, lavamos y troceamos las patatas a la mitad.
+                Reservamos.</li>
+              <li>
+                Cuando acabemos de cocer el pulpo lo dejamos reposar unos minutos y luego lo sacamos
+                a
+                una fuente. En la misma agua echamos las patatas y cocemos durante 15 minutos.
+              </li>
+              <li>
+                Si no quieres que cojan el color rosado puedes hacerlas en otra cazuela. Eso depende
+                de
+                cada uno, a mí me gustan con el sabor al pulpo.
+              </li>
+              <li>
+                Cortamos el pulpo con unas tijeras de cocina, las patas en trozos de 1 cm de grosor
+                y la
+                cabeza en trozos pequeños.
+              </li>
+              <li>Lo servimos en plato de madera con una base de patatas.</li>
+              <li>
+                Salamos con sal gorda, espolvoreamos con el pimentón (picante o dulce) y rociamos
+                con un
+                poco de aceite de oliva virgen extra. A mí me gusta aliñarlo también con un poco de
+                agua
+                de la cocción.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="rabo" tabindex="-1" aria-hidden="true" aria-labelledby="rabo-title"
+      data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="rabo-title">Receta de Rabo de Toro
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>1 rabo de toro</li>
+              <li>1 cebolla</li>
+              <li>1 puerro</li>
+              <li>3 o 4 dientes de ajo</li>
+              <li>2 o 3 zanahorias</li>
+              <li>1 pimiento rojo</li>
+              <li>1 vaso de vino, podéis usar tinto o uno de Montilla Moriles</li>
+              <li>2 vasos de caldo</li>
+              <li>Sal</li>
+              <li>1 hoja de laurel</li>
+              <li>Pimienta negra molida</li>
+              <li>Aceite de oliva virgen extra</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <h5>Preparamos la carne</h5>
+
+            <ol>
+              <li>
+                Pedimos en la carnicería que nos limpien y corten el rabo en trozos ya que cuesta
+                bastante cortarlo.
+              </li>
+              <li>
+                Salpimentamos y enharinamos los trozos y los doramos en una cazuela con aceite de oliva
+                virgen extra, los sacamos y reservamos.
+              </li>
+            </ol>
+
+            <h5>Salteamos las verduras para la salsa</h5>
+
+            <ol>
+              <li>
+                En la misma cazuela añadimos la zanahoria, el puerro, los ajos y el pimiento, todo
+                picado, y sofreímos.
+              </li>
+              <li>
+                Cuando comiencen a dorarse, volvemos a poner los trozos de rabo de toro, añadimos el
+                agua y el caldo.
+                Cuando comience a hervir, bajamos el fuego y tapamos.
+              </li>
+              <li>Dejamos cocinar unas 3 o 4 horas o hasta que al pinchar la carne se desprenda del hueso.</li>
+              <li>
+                Si durante la cocción se queda sin líquido, podéis añadir más caldo.
+                 Una vez que la carne ya está hecha, subimos el fuego hasta quedarnos sólo con el aceite.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- this is the end of my MODAL SECTION********************************************** -->
 
   </main>
 
@@ -239,31 +768,111 @@
       <div class="historia">
 
 
-        <h3>Breve historia</h3>
+        <h3>Cocina Española</h3>
 
-        <img class="historyImg" src="../img/historia.jpg" alt="frenchHistoryImage">
+        <img class="historyImg"
+          src="https://hablemosdeculturas.com/wp-content/uploads/2017/11/PAELLA-6.jpg"
+          alt="spainfoodimage">
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quas iusto ut ipsa, ab impedit rem possimus, repellendus saepe perferendis pariatur, expedita a modi libero consectetur aperiam voluptatem incidunt error.</p>
+        <p>
+          Aunque es imposible contar toda la historia de nuestra cocina de forma breve , hemos
+          intentado hacer un resumen en tres partes de los puntos más interesantes e importantes,
+          para
+          tener un esquema fácil que nos ayude entender por qué España , cuenta con una gastronomía
+          excepcional, tanto en variedad como en riqueza y calidad de productos y recetas, así como
+          de
+          un sector de restauración de primera categoría, que cuenta con restaurantes y Chefs de
+          prestigio internacional.
+        </p>
 
+        <h5>HISTORIA DE LA COCINA ESPAÑOLA: ORIGENES.</h5>
 
+        <p>
+          En consecuencia a la sucesión de culturas que han habitado la Península Ibérica, contamos
+          con una inmensa variedad en lo que respecta a: la música, arte, idioma y como no podía ser
+          menos, la gastronomía.
+        </p>
 
+        <p>
+          La situación geográfica de España, ha hecho que determinados productos sean principales en
+          nuestras comidas, por la gran variedad que se nos ofrece. Uno de estos casos es el
+          pescado,
+          al ser una península y por lo tanto estar rodeado casi completamente por agua, este
+          alimento, se ha podido consumir mediante la pesca desde tiempos muy lejanos. Gracias a la
+          gran extensión de valles y caudalosos ríos que filtran el agua con el objetivo de
+          sustentar
+          el regadío, podemos contar con multiplicidad de verduras y fruta fresca en cada temporada.
+          O
+          los reconocidos jamones españoles, que se curan en las montañas de la Península.
+        </p>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque consequatur deserunt
-          tempora itaque nobis exercitationem doloribus reiciendis nesciunt temporibus, rerum
-          cum
-          quo
-          architecto possimus adipisci sequi, necessitatibus porro maxime laudantium!
-          París, ciudad gastronómica
-          París era el centro creativo culinario en el mundo. Gradualmente la industria de la
-          hospitalidad
-          se estableció. Los
-          modales en la mesa y el sabor francés se volvieron un modelo internacional.</p>
+        <p>
+          Desde el asentamiento de colonizaciones fenicias, griegas o cartagineses hasta nuestros
+          tiempos, la gastronomía española ha evolucionado constantemente con el paso de los siglos.
+        </p>
 
+        <p>
+          Los fenicios y griegos, difundieron el cultivo de la vid, trigo y cebada y por lo tanto se
+          comenzó a producir vinos, pan y cerveza ( que por esos entonces era una especie de zumo de
+          cebada) ya que vieron la necesidad de dar salida a los excedentes de grano que de no ser
+          consumidos, se estropearían.. Los romanos, siguieron sus pasos .Hasta el s.II a.C, la
+          cocina
+          romana se basaba en alimentos básicos: guisantes, queso de leche de oveja, carne de
+          cordero,
+          col, frutas. Pero, a principios del siglo II a.C , los romanos entraron en Asia Menor y
+          descubrieron el refinamiento de las cortes griegas de Oriente. A partir de ese momento, la
+          preparación de las comidas se empezó a hacer larga y costosa. Los servicios de los
+          cocineros, trabajo desempeñado por esclavos, se comenzó a pagar mucho más.
+        </p>
 
+        <p>
+          Según pasaban los años, el hombre fue descubriendo nuevos alimentos, formas de
+          conservación
+          y maneras de consumirlo. La alimentación pasó de ser una necesidad diaria a una emoción de
+          paladares, puesto que los romanos realizaban festines y banquetes en honor a la comida.
+          Buscaban nuevos animales, mezclas poco usuales y bebidas para despertar sus intereses de
+          primeros gourmets.
+        </p>
 
+        <p>
+          Aunque sin duda, fueron los árabes, los que empezaron a dejar un impacto gastronómico más
+          importante en España .Introdujeron condimentos ligeros aplicados a diferentes platos, al
+          igual que empezaron a combinar frutas o frutos secos en los platos de pescados o carnes,
+          creando otros sabores a las comidas.El azafrán; cítricos como las naranjas, limones o
+          pomelos, hortalizas como las berenjenas, alcachofas o el arroz; sandías; melones;
+          pistachos
+          y dátiles son algunas de las muchas aportaciones gastronómicas que nos dejaron hasta
+          nuestros días.
+        </p>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, accusamus voluptas. Totam non, in eaque iusto id, doloribus consequatur reiciendis vitae, ad quidem illo adipisci molestias alias enim tempore nostrum.</p>
+        <p>
+          Años después, con la formación de reinos cristianos, se empezó a elaborar platos con
+          cerdo,
+          ya que tanto para judíos como musulmanes este alimento estaba prohibido.
+        </p>
 
+        <p>
+          Los cristianos, hicieron completa utilización del animal, no se desprendían de ningún
+          resto,
+          las partes del cerdo que a los ricos no gustaban, a los pobres alimentaban. A esto, hay
+          que
+          sumarle, algunas de las costumbres gastronómicas que conservamos hasta nuestros días, por
+          ejemplo, preparaban platos especiales para la Cuaresma (sin ninguna otra carne animal que
+          no
+          fuese la de pescado) o la invención de las torrijas.
+        </p>
+
+        <p>
+          Año 1492, fue un año que cambió la península en muchos sentidos, no solo fue el triunfo de
+          la Reconquista, sino respecto a la gastronomía del país, que dio un giro enorme tras
+          descubrir el nuevo continente: América y por lo tanto, sumarse a nuestras comidas, una
+          gran
+          variedad de productos, especias y nuevas formas de elaborar platos. Poco a poco, se fueron
+          integrando a nuestra dieta española productos como la patata, tomates, vainilla, pimentón,
+          avena, legumbres o el chocolate. Muchos de ellos, productos indispensables en nuestros
+          platos como pueden ser la tortilla de patata, lentejas con chorizo, gazpacho, fabada
+          asturiana o el típico chocolate con churros.
+        </p>
 
 
       </div>
@@ -333,4 +942,3 @@
 </body>
 
 </html>
-

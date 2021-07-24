@@ -4,15 +4,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cocina Mexicana</title>.
+  <title>Cocina Mexicana</title>
   <meta name="descripcion" content="cocina de Mexico y sus respectivas recetas">
-  <meta name="keywords" content="cocina, recetas, historia, ingredientes, preparacion, mexicana, tacos, chilaquiles, tamales, quesadillas, nachos, enchiladas">
+  <meta name="keywords"
+    content="cocina, recetas, historia, ingredientes, preparacion, mexicana, tacos, chilaquiles, tamales, quesadillas, nachos, enchiladas">
   <!-- estilos BOOTSTRAP********************************************************************************-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
     crossorigin="anonymous">
-    <!-- ESTILOS LOCALES************************************************************************* -->
+  <!-- ESTILOS LOCALES************************************************************************* -->
   <link rel="stylesheet" href="../css/styles.css">
   <!-- iconos ********************************************************************************-->
   <script src="https://kit.fontawesome.com/8e2d423bcc.js" crossorigin="anonymous"></script>
@@ -21,11 +22,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;900&display=swap"
     rel="stylesheet">
-     <!-- ANIMATIONS**************************************************************** -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-   />
+  <!-- ANIMATIONS**************************************************************** -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -38,7 +37,9 @@
     <div id="imgAnimation"><a href="../index.html"><img class="header__img" src="../img/logo.jpg"
           alt="logo-here"></a>
     </div>
-    <h1 class="header__bigHeader animate__animated animate__fadeInUp">Cocinas del Mundo</h1>
+    <div class="header__bigHeader">
+      <h1 class="animate__animated animate__fadeInUp">Mexicana</h1>
+    </div>
 
     <!-- NAVBAR ********************************************************************************-->
 
@@ -79,13 +80,9 @@
 
 
 
-    <h2 class="principal__subtitle">Mexicana</h2>
-
-
-
     <section id="carousel">
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
 
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -111,56 +108,76 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="principal__imgRef"><img src="../img/mexicana/tacos.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Tacos">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#tacos"
+                data-bs-toggle="modal" role="button"><img src="../img/mexicana/tacos.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Tacos"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Tacos</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur corrupti facilis ea tempore quisquam maxime impedit perspiciatis possimus earum, nihil aperiam deserunt, quidem tempora dolores corporis mollitia iusto quam?</p>
+                <p>El taco es una preparación culinaria muy popular en México que consiste en una
+                  tortilla, generalmente de maíz, que se dobla para contener dentro diversos
+                  ingredientes y algún tipo de salsa.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"> <img src="../img/mexicana/chilaquiles.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Chilaquiles">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#chilaquiles"
+                data-bs-toggle="modal" role="button"><img src="../img/mexicana/chilaquiles.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Chilaquiles"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Chilaquiles</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magni architecto deserunt maxime dolorum molestiae minima sint vitae ducimus nulla soluta impedit perspiciatis porro, dolorem minus cupiditate id quia! Ex!</p>
+                <p>plato típico mexicano elaborado a base de trozos triangulares de tortilla de maíz
+                  fritos o tostados llamados totopos, que se cocinan en una salsa picante que es
+                  roja o verde dependiendo del tipo de chile usado1​ y tiene multitud de variantes
+                  regionales.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/mexicana/enchiladas.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Enchiladas">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#enchiladas"
+                data-bs-toggle="modal" role="button"><img src="../img/mexicana/enchiladas.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Enchiladas"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Enchiladas</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident repudiandae possimus soluta? Illo ab dicta, fugiat quod error delectus. Illo repellendus fugiat distinctio eaque architecto consequatur harum, dolores ad?.</p>
+                <p>Plato a base de tortilla que se sirven bañadas con una salsa picante de chile,
+                  de allí su nombre.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/mexicana/nachos.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Nachos">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#nachos"
+                data-bs-toggle="modal" role="button"><img src="../img/mexicana/nachos.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Nachos"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Nachos</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quidem ullam cupiditate mollitia dignissimos assumenda optio exercitationem provident quibusdam saepe. Accusamus et, maiores vel ut sapiente rerum placeat fugit quasi?</p>
+                <p>Los nachos son un platillo de origen mexicano, que consiste en freír trozos de
+                  tortilla de maíz cubiertos con un queso especial llamado «queso para nachos»</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/mexicana/quesadillas.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Quesadillas">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#quesadillas"
+                data-bs-toggle="modal" role="button"><img src="../img/mexicana/quesadillas.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Quesadillas"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Quesadillas</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae autem voluptates enim rerum distinctio maiores laboriosam, impedit dolores accusantium, eum quibusdam ea, debitis similique aperiam ad? Perferendis architecto tenetur similique.</p>
+                <p>
+                  Quesadilla es básicamente una tortilla elaborada con masa de maíz o harina de
+                  trigo que se sirve doblada. En Ciudad de México puede ser rellena de cualquier
+                  alimento con o sin queso. Pero en el resto del país, la quesadilla tiene que
+                  llevar queso.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/mexicana/tamales.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Tamales">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#tamales"
+                data-bs-toggle="modal" role="button"><img src="../img/mexicana/tamales.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Tamales"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Tamales</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, consequuntur nihil! Recusandae, modi ab fugiat veritatis sunt dolores at fugit accusantium, rerum culpa aperiam facere ut totam. Deleniti, suscipit natus!</p>
+                <p>El tamal es un nombre genérico dado a platos americanos de origen indígena
+                  preparado generalmente con masa de maíz cocida envuelta en hojas de la mazorca o
+                  de la misma planta de maíz, plátano, bijao, maguey, aguacate o incluso papel
+                  aluminio o plástico.</p>
               </div>
             </div>
           </div>
@@ -179,52 +196,487 @@
 
     </section>
 
-    <br><br>
+    <p class="aviso"><strong>"Haz click en la imagen para obtener la receta"</strong></p>
 
-    <hr>
-    <!-- ingredientes y preparacion ****************************************************************-->
+    <!-- this is my MODAL SECTION*************************************************** -->
 
-    <section id="ingrPrep">
+    <div class="modal fade" id="tacos" tabindex="-1" aria-hidden="true"
+      aria-labelledby="tacos-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="tacos-title">Receta de Tacos
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-      <div class="ingPrepContent">
-        <h2>Ingredientes</h2>
+            <ul>
+              <li>250 grs de carne: puede ser peceto, nalga, la que más te guste</li>
+              <li>1 cebolla morada mediana</li>
+              <li>2 dientes de ajo</li>
+              <li>1 chile fresco (opcional)</li>
+              <li>1/2 pimiento o morrón rojo</li>
+              <li>1/2 pimiento o morrón verde</li>
+              <li>Jugo de 1 lima o limón</li>
+              <li>1 tomate mediano</li>
+              <li>Orégano</li>
+              <li>Chile seco (a gusto)</li>
+              <li>Sal y pimienta</li>
+              <li>Cilantro</li>
+              <li>Aceite neutro</li>
+            </ul>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Cortar los morrones y la cebolla en juliana, el ajo y el chile bien bien pequeño y
+                el
+                tomate en cubitos. Reservar por separado.
+              </li>
+              <li>
+                Cortar la carne en tiritas y en un bol salpimentar, agregar la mitad del zumo de
+                lima o
+                limón y dejar macerando unos 20 minutos.
+              </li>
+              <li>
+                Si quieren, en este paso pueden hacer la magia que les guste para darle sabor a la
+                carne: ponerle mostaza, un chorro de cerveza… Lo que ustedes quieran. La idea es que
+                los
+                tacos de carne queden bien sabrosos así que todo vale.
+              </li>
+              <li>
+                En una sartén poner un chorro de aceite, el chile seco y el orégano y calentar unos
+                2 o
+                3 minutos. Agregar el ajo y el chile y sofreír unos minutos más.
+              </li>
+              <li>
+                Agregar la carne y saltear. Después de 5 minutos, a mitad de cocción, sumar el
+                tomate y
+                terminar de cocinar.
+              </li>
+              <li>
+                Por otro lado, saltear el resto de las verduras hasta que estén cocidas pero OJO:
+                que
+                estén firmes.
+              </li>
+              <li>
+                Mezclar las dos preparaciones y rectificamos con sal y pimienta de ser necesario. Le
+                agregamos el resto del zumo de lima o limón y el cilantro deshojado.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-      <div class="ingPrepContent">
-        <h2>Preparacion</h2>
+    <div class="modal fade" id="chilaquiles" tabindex="-1" aria-hidden="true"
+      aria-labelledby="chilaquiles-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="chilaquiles-title">Receta de Chilaquiles
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <ul>
+              <li>⅓ taza de aceite vegetal</li>
+              <li>12 tortillas cortadas en seis partes preferiblemente secas dejadas en el mostrador
+                la</li>
+              <li>noche anterior</li>
+              <li>2 tazas de salsa roja o verde ver enlaces a la recetas abajo</li>
+              <li>1-½ taza de pechuga de pollo cocida y desmenuzada opcional</li>
+              <li>1 epazote de primavera</li>
+              <li>⅓ taza de cilantro picado para adornar</li>
+              <li>½ taza de queso fresco mexicano desmenuzado</li>
+              <li>2 rodajas de cebolla separadas en aros</li>
+              <li>½ taza de crema de leche mexicana</li>
+              <li>Sal para sazonar</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Calienta 1 cucharada de aceite en una sartén grande y empieza a freír las tortillas
+                hasta que estén doradas y crujientes por tandas. Es posible que tengas que hacer 2 o
+                3
+                partes para evitar que se amontonen en el sartén.
+              </li>
+
+              <li>Escurre las tortillas en toallas de papel. Repite el proceso con el resto de las
+                tortillas.</li>
+              <li>
+                Limpia la sartén con una toalla de papel, baja la lumbre a fuego medio y agrega 1
+                cucharada de aceite.
+              </li>
+
+              <li>Añada la salsa y deja cocer durante 5 minutos. </li>
+
+              <li>Agrega el Epazote y sazona la salsa con sal. Con cuidado agrega las tortillas para
+                evitar romperlas. </li>
+
+              <li>Añada el pollo (si lo vas a usar) y cúbralo con la salsa. Cocina durante 2 minutos
+                más.</li>
+              <li>Sirva acompañado con queso desmenuzado, cilantro, cebolla y con la crema. </li>
+
+              <li>
+                Sirva con "Frijoles Refritos". El aguacate también es una buena complemento a los
+                chilaquiles
+                rojos.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-    </section>
+    <div class="modal fade" id="enchiladas" tabindex="-1" aria-hidden="true"
+      aria-labelledby="enchiladas-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="enchiladas-title">Receta de Enchiladas
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>1 unidad de Cebolla pequeña</li>
+              <li>500 gramos de Pollo (1 pechuga hervida y desmenuzada)</li>
+              <li>1 pizca de Sal</li>
+              <li>2 cubos de Caldo de ave</li>
+              <li>8 unidades de Chiles serranos</li>
+              <li>200 centímetros cúbicos de Nata</li>
+              <li>150 centímetros cúbicos de Aceite</li>
+              <li>5 unidades de Tomates</li>
+              <li>24 unidades de Tortillas de maíz</li>
+              <li>150 gramos de Queso rallado</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Trituramos los tomates con la batidora (si tenemos licuadora también sirve).
+                Añadimos
+                los chiles, la cebolla pelada y cortada y las pastillas de caldo de ave y seguimos
+                licuando.
+              </li>
+
+              <li>
+                Pasamos la salsa a una cazuela de barro y dejamos que hierva y se guise a fuego
+                lento
+                durante 15-20 minutos aproximadamente. Mientras tanto, rallamos el queso. Es
+                importante
+                utilizar un tipo de queso que se pueda fundir bien.
+              </li>
+
+              <li>
+                Aparte, preparamos las tortillas de maíz. Ponemos una sartén con abundante aceite a
+                calentar y, una vez caliente, ponemos las tortillas de una en una. Las cocinamos
+                vuelta
+                y vuelta para evitar que se pongan duras, deben quedar blanditas. Las vamos
+                colocando en
+                un plato con papel absorbente para retirar el exceso de aceite.
+              </li>
+
+              <li>
+                Sumergimos una enchilada con las pinzas para no mancharnos y la sumergimos en la
+                salsa
+                roja, la colocamos sobre un plato y rellenamos con el pollo previamente hervido y
+                desmenuzado. Enrollamos la enchilada como un taco o la doblamos como una quesadilla,
+                lo
+                que más nos guste. Repetimos este proceso con todas las tortillas.
+              </li>
+
+              <li>
+                Cogemos una bandeja de horno o una refractaria y colocamos las enchiladas una al
+                lado de
+                la otra. Luego, repartimos la nata o crema agria de forma uniforme y espolvoreamos
+                el
+                queso rallado. Ahora solo nos queda gratinar el queso en el horno y ¡listo!
+              </li>
+              <li>
+                Podemos acompañar las enchiladas mexicanas de pollo con una ensalada de lechuga o la
+                guarnición que más nos guste.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="nachos" tabindex="-1" aria-hidden="true"
+      aria-labelledby="nachos-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="nachos-title">Receta de Nachos
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>150g de harina de trigo</li>
+              <li>150g de harina de maíz</li>
+              <li>150-180ml de agua</li>
+              <li>sal</li>
+              <li>Aceite</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Preparamos las tortillas mexicanas. Para ello, en un bol ponemos la harina de trigo
+                y la de maíz. Puedes poner sólo la de trigo si quieres. Sólo de maíz no sirve,
+                porque al
+                carecer de gluten, no vas a poder estirarla después. Añadimos también el agua y la
+                sal y
+                mezclamos. La cantidad de agua es orientativa. Al final, debe quedar una masa que se
+                pegue sólo un poco a las manos. Que no quede ni muy dura ni demasiado licuada. Que
+                se
+                pegue un poquito a las manos.
+              </li>
+              <li>
+                Amasamos durante unos 5 minutos. Después devolvemos la masa al bol, tapamos y
+                dejamos que repose en la nevera unos 20 minutos
+              </li>
+              <li>
+                Pasado este tiempo retiramos y hacemos con la masa bolas de unos 50g. Cogemos
+                individualmente cada bola y la aplastamos un poco con las manos. Después, la
+                colocamos
+                sobre una encimera enharinada y la estiramos con un rodillo. No te preocupes si no
+                te
+                quedan con una forma redondeada perfecta, la idea es que queden lo más circulares
+                posibles, sin necesidad que sean perfectas. Lo que sí es muy importante es que
+                queden
+                muy finas, de menos de 1 cm de grosor
+              </li>
+              <li>
+                Ponemos cada tortilla en una sartén a fuego fuerte. Las vamos a cocinar a la plancha
+                un minutito por cada una de sus caras. Hecho esto retiramos y reservamos, hasta que
+                terminemos de hacer todas las tortillas
+              </li>
+              <li>
+                Puedes obviar todos estos pasos comprando directamente las tortillas. Nos quitaremos
+                gran parte del trabajo de encima pero el resultado no será el mismo. Lo que sí que
+                vamos
+                a hacer, en todo caso, es dejarlas un día a temperatura ambiente. Sin tapar ni nada.
+                Así
+                dejamos que las tortillas mexicanas que acabamos de hacer se sequen.
+              </li>
+              <li>
+                Al día siguiente las cortamos en triángulos y las freímos en pequeñas tandas y en
+                abundante aceite caliente. Con una espumadera, las vamos removiendo en todo momento,
+                para evitar que se tuesten en exceso. Pasados tan sólo unos 15 o 30 segundos, cuando
+                con
+                la misma espumadera veamos que comienzan a «endurecerse» – a quedar crujientes –
+                retiramos los nachos caseros y los dejamos reposar en papel absorbente.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="quesadillas" tabindex="-1" aria-hidden="true"
+      aria-labelledby="quesadillas-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="quesadillas-title">Receta de Quesadillas
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>500 g de harina</li>
+              <li>1/2 cucharadita de polvo de hornear</li>
+              <li>1/2 cucharada de sal</li>
+              <li>80 g de manteca (se puede reemplazar por aceite)</li>
+              <li>250 cc de agua tibia tirando a caliente</li>
+              <li>Cantidad al gusto de queso fresco</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+
+            <ol>
+
+              <li>Mezclar la harina, el polvo para hornear y la sal.</li>
 
 
 
+              <li>
+                Añadir la manteca fría o el aceite y mezclar con la harina hasta que esté integrada
+                totalmente. Debe quedar como una arenilla (arenado). Agregar el agua de a poco y
+                mezclar.
+              </li>
 
+
+
+              <li>
+                Amasar hasta quedar una masa homogénea. Tapar y dejar reposar 10 minutos para que
+                relaje.
+              </li>
+
+
+
+              <li>
+                Tomar porciones de masa y realizar bolitas del tamaño de una pelota de ping pong o
+                del
+                tamaño deseado.
+              </li>
+
+
+
+              <li>
+                Pasar la bolita por harina, aplastar manteniendo la forma circular y con un palo de
+                amasar estirar. Ir estirando y girando de a cuartos siempre para el mismo lado, de
+                esta
+                manera se genera y mantiene la forma circular. En caso de ser necesario espolvorear
+                con
+                mas harina para evitar que se pegue y pierda la forma. Deben quedar bien finitas
+                aproximadamente de 1 mm de espesor como mucho y de entre 18 a 15 cm de diámetro.
+              </li>
+
+
+
+              <li>
+                Calentar una sartén anti adherente a fuego alto. Una vez que haya llegado a la
+                temperatura bajar a fuego medio. Cocinar cada tortilla de cada lado entre 50 y 60
+                segundos.
+              </li>
+
+
+
+              <li>
+                Rellenar con queso, doblar y cocinar en la sartén hasta que estén tostadas de cada
+                lado
+                y el queso se haya derretido.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="tamales" tabindex="-1" aria-hidden="true"
+      aria-labelledby="tamales-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="tamales-title">Receta de Tamales
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>Cebolla de verdeo 2 Unidades</li>
+              <li>Carne asada 900 g</li>
+              <li>Sal A gusto</li>
+              <li>Harina de maíz amarilla 300 g</li>
+              <li>Cebolla 1 Unidad</li>
+              <li>Caldo 3 Tazas</li>
+              <li>Pasas de uva A gusto</li>
+              <li>Puré de zapallo 200 g</li>
+              <li>Pimentón Cantidad necesaria</li>
+              <li>Chalas de maíz 10 Unidades</li>
+              <li>Comino 1/2 cda.</li>
+              <li>Ají molido 1 cdita.</li>
+              <li>Grasa bovina 1/4 Taza</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>Pique la cebolla de verdeo.</li>
+              <li>Corte la carne en tiras.</li>
+              <li>Pele la cebolla y corte brunoise.</li>
+              <li>Mezcle ½ taza de caldo con el ají molido y pimentón. Reserve.</li>
+              <li>Coloque la harina de maíz en un bowl y mezcle con el puré de zapallo. Reserve.</li>
+              <li>
+                En una olla con la grasa bovina caliente incorpore comino, la sal, pimentón y el caldo
+                restante.
+              </li>
+              <li>
+                Una vez que rompa el hervor agregue la mezcla reservada y cocine durante 10 minutos a
+                fuego bajo revolviendo constantemente.
+              </li>
+              <li>
+                En una sartén con grasa caliente, sude la cebolla de verdeo junto con la cebolla y
+                condimente con sal.
+              </li>
+              <li>Agregue la mezcle de caldo y especias.</li>
+              <li>
+                Incorpore la carne, y las pasas de uva, cocine durante 10 minutos tapada y deje reposar.
+                Coloque sobre las chalas parte de la preparación de puré de zapallo con harina de maíz y
+                por encima la carne, cubra con el zapallo y cierre dando forma de paquete. Ate con hilo.
+              </li>
+              <li>
+                En una olla con abundante agua hirviendo con sal, cocine los tamales durante 10 minutos.
+                Cuele y retire los hilos.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- this is the end of my MODAL SECTION********************************************** -->
 
   </main>
 
@@ -240,31 +692,82 @@
       <div class="historia">
 
 
-        <h3>Breve historia</h3>
+        <h3>Cocina Mexicana</h3>
 
-        <img class="historyImg" src="../img/historia.jpg" alt="frenchHistoryImage">
+        <img class="historyImg"
+          src="https://www.superprof.mx/blog/wp-content/uploads/2018/06/evolucion-gastronomia-mexicana.jpg"
+          alt="mexican food image">
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium culpa dolores harum labore, sequi explicabo ipsa reprehenderit laudantium dignissimos adipisci neque iure. Rem vel provident tempore quibusdam in ad facere.</p>
+        <p>
+          La gastronomía mexicana es el conjunto de platillos y técnicas culinarias de México que
+          forman parte de las tradiciones y vida común de sus habitantes, enriquecida por las
+          aportaciones de las distintas regiones del país, que deriva de la experiencia del México
+          prehispánico con la cocina europea, entre otras. El 16 de noviembre de 2010, la
+          gastronomía
+          mexicana fue reconocida como Patrimonio Cultural Inmaterial de la Humanidad por la
+          Unesco.
+        </p>
 
+        <p>
+          La cocina mexicana ha sido influida y ha influido a su vez a cocinas de otras culturas,
+          como
+          la española, francesa, africana, del Oriente Medio y asiática. Es testimonio de la cultura
+          histórica del país: muchos platillos se originaron en el México prehispánico y otros
+          momentos importantes de su historia. Existe en ella una amplia gama de sabores, colores,
+          texturas e influencias que la convierten en un gran atractivo para nacionales y
+          extranjeros:
+          México es famoso por su gastronomía.
+        </p>
 
+        <p>
+          La base de la cocina mexicana actual deriva en gran parte de la cocina existente en la
+          época
+          prehispánica, con un uso preponderante del maíz, frijol, chile, jitomate, tomate verde,
+          calabaza, aguacate, cacao, cacahuate, amaranto, vainilla, nopal, agave, cactáceas, hierbas
+          y
+          condimentos (epazote, hoja santa, pápalo, quelites), diversas aves como el guajolote y
+          variedad de mamíferos, peces e insectos. Mientras que múltiples ingredientes se han
+          adaptado
+          a la cocina mexicana a través del intercambio cultural que trajo el Virreinato de Nueva
+          España y los siglos subsecuentes, que introdujeron ingredientes europeos, mediterráneos,
+          asiáticos y africanos como es el trigo, arroz, café, comino, hierbabuena, laurel, orégano,
+          perejil, cerdo, res, pollo, cebolla, limón, naranja, plátano, caña de azúcar, cilantro,
+          canela, clavo, tomillo y pimienta; muchos de los cuales han sido ampliamente adoptados e
+          incluso históricamente cultivados en México, como es el caso del café y el arroz.
+        </p>
 
+        <p>
+          México aportó al mundo productos sin los cuales no sería posible entender la gastronomía
+          mundial. Entre ellos el maíz, frijol, chile, aguacate, vainilla, cacao, jitomate,
+          calabaza,
+          chayote, zapote, mamey, papaya, guayaba, nopal y guajolote.
+        </p>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque consequatur deserunt
-          tempora itaque nobis exercitationem doloribus reiciendis nesciunt temporibus, rerum
-          cum
-          quo
-          architecto possimus adipisci sequi, necessitatibus porro maxime laudantium!
-          París, ciudad gastronómica
-          París era el centro creativo culinario en el mundo. Gradualmente la industria de la
-          hospitalidad
-          se estableció. Los
-          modales en la mesa y el sabor francés se volvieron un modelo internacional.</p>
+        <p>
+          La diversidad es la característica esencial de la cocina mexicana, y es la comida regional
+          uno de sus aspectos fundamentales. Cada estado mexicano y región poseen sus propias
+          recetas
+          y tradiciones culinarias.4​ Ejemplos de comidas regionales son platillos como el caldillo
+          duranguense (Durango), cochinita pibil (yucateca), el mole oaxaqueño, el mole poblano y el
+          chile en nogada (Puebla), los múltiples tipos de pozole, el cabrito (coahuilense y
+          neoleonense), el pan de cazón campechano, el churipo y las corundas (región purépecha) o
+          el
+          menudo (jalisciense, sinaloense, sonorense y chihuahuense). Ciertamente, hay creaciones
+          gastronómicas que surgieron localmente y que por su calidad, aceptación y difusión se han
+          vuelto emblemáticas de la cocina mexicana en lo general. En los mercados de cada sitio se
+          muestra esta diversidad, y la actividad por las mañanas comienza con típicos desayunos
+          como
+          molletes dulces o salados, chilaquiles y/o huevos al gusto y bebidas con leche, café,
+          chocolate y jugos, hasta platillos únicos de cada región.
+        </p>
 
-
-
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugit pariatur illo doloribus quod omnis accusantium, neque harum facilis odio eum dolorum inventore, autem itaque deserunt repudiandae consequatur, laborum nam!</p>
-
+        <p>
+          En el conjunto inmenso de cocinas regionales, se caracterizan todas ellas por un
+          componente
+          indígena básico en sus ingredientes y algunas técnicas comunes de preparación de los
+          alimentos. El común denominador en muchas cocinas es el uso de maíz, chile y frijol,
+          acompañados de jitomate en sus diversas formas, aunque no es un determinante.
+        </p>
 
 
       </div>
@@ -334,4 +837,3 @@
 </body>
 
 </html>
-

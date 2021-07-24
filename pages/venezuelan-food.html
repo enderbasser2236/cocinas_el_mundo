@@ -5,8 +5,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cocina Venezolana</title>
-  <meta name="descripcion" content="cocina de venezuela y sus respectivas recetas">  
-  <meta name="keywords" content="cocina, recetas, historia, ingredientes, preparacion, venezolana, pabellon, arepa, hallaca, mondongo, bollos, pelones, patacones">
+  <meta name="descripcion" content="cocina de venezuela y sus respectivas recetas">
+  <meta name="keywords"
+    content="cocina, recetas, historia, ingredientes, preparacion, venezolana, pabellon, arepa, hallaca, mondongo, bollos, pelones, patacones">
   <!-- estilos ********************************************************************************-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -20,11 +21,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;900&display=swap"
     rel="stylesheet">
-     <!-- ANIMATIONS**************************************************************** -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-   />
+  <!-- ANIMATIONS**************************************************************** -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -37,7 +36,9 @@
     <div id="imgAnimation"><a href="../index.html"><img class="header__img" src="../img/logo.jpg"
           alt="logo-here"></a>
     </div>
-    <h1 class="header__bigHeader animate__animated animate__fadeInUp">Cocinas del Mundo</h1>
+    <div class="header__bigHeader">
+      <h1 class="animate__animated animate__fadeInUp">Venezolana</h1>
+    </div>
 
     <!-- NAVBAR ********************************************************************************-->
 
@@ -78,13 +79,9 @@
 
 
 
-    <h2 class="principal__subtitle">Venezolana</h2>
-
-
-
     <section id="carousel">
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
 
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -110,56 +107,79 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="principal__imgRef"><img src="../img/venezolana/pabellon.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Pabellon">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#pabellon"
+                data-bs-toggle="modal" role="button"><img src="../img/venezolana/pabellon.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Pabellon"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Pabellon</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur corrupti facilis ea tempore quisquam maxime impedit perspiciatis possimus earum, nihil aperiam deserunt, quidem tempora dolores corporis mollitia iusto quam?</p>
+                <p>El pabellón criollo es un plato tradicional de Venezuela. ​El pabellón criollo
+                  tradicional está compuesto por arroz blanco cocido, carne mechada, caraotas
+                  (frijoles) negros y tajadas de plátano maduro frito.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"> <img src="../img/venezolana/arepa.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Arepa">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#arepa"
+                data-bs-toggle="modal" role="button"><img src="../img/venezolana/arepa.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Arepa"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Arepa</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magni architecto deserunt maxime dolorum molestiae minima sint vitae ducimus nulla soluta impedit perspiciatis porro, dolorem minus cupiditate id quia! Ex!</p>
+                <p>La arepa es un alimento de origen precolombino, hecho a base de maíz seco molido
+                  o harina de maíz precocida con una forma circular y aplanada. Es conocida bajo ese
+                  nombre en Bolivia, Colombia y Venezuela, y es consumida de manera tradicional en
+                  las gastronomías de estos países.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/venezolana/hallaca.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Hallaca">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#hallaca"
+                data-bs-toggle="modal" role="button"><img src="../img/venezolana/hallaca.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Hallaca"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Hallaca</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident repudiandae possimus soluta? Illo ab dicta, fugiat quod error delectus. Illo repellendus fugiat distinctio eaque architecto consequatur harum, dolores ad?.</p>
+                <p>La hallaca o hayaca​ es un tamal1​4​ tradicional de Venezuela. Consiste en una
+                  masa de harina de maíz sazonada con caldo de gallina o de pollo y pigmentada con
+                  onoto o achiote, rellena con guiso de carne de res, cerdo y gallina o pollo,
+                  algunas pocas versiones que llevan pescado.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/venezolana/mondongo.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Mondongo">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#mondongo"
+                data-bs-toggle="modal" role="button"><img src="../img/venezolana/mondongo.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Mondongo"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Mondongo</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quidem ullam cupiditate mollitia dignissimos assumenda optio exercitationem provident quibusdam saepe. Accusamus et, maiores vel ut sapiente rerum placeat fugit quasi?</p>
+                <p>El mondongo es una sopa cuyo ingrediente principal es la panza de res , en
+                  pequeños cuadros, de unos 2 centímetros de lado, y cocinados en olla junto con
+                  diversos ingredientes como: papas, garbanzos, ñame, ocumo, yuca, zanahoria o
+                  bolitas de masa de harina de maíz precocida.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/venezolana/bollos pelones.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Bollos Pelones">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#bollos"
+                data-bs-toggle="modal" role="button"><img src="../img/venezolana/bollos pelones.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Bollos Pelones"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Bollos Pelones</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae autem voluptates enim rerum distinctio maiores laboriosam, impedit dolores accusantium, eum quibusdam ea, debitis similique aperiam ad? Perferendis architecto tenetur similique.</p>
+                <p>El bollo pelón es un plato típico de la cocina venezolana que consiste en un
+                  bollito de masa de maíz relleno de guiso de carne o pollo, que se hierve y se baña
+                  en una salsa usualmente a base de tomates. No deben confundirse con los bollitos
+                  hervidos ya que estos no llevan relleno.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/venezolana/patacones.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Patacones">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#patacones"
+                data-bs-toggle="modal" role="button"><img src="../img/venezolana/patacones.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Patacones"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Patacones</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, consequuntur nihil! Recusandae, modi ab fugiat veritatis sunt dolores at fugit accusantium, rerum culpa aperiam facere ut totam. Deleniti, suscipit natus!</p>
+                <p>Patacón, frito a base de plátanos verdes, popular en varios países
+                  latinoamericanos y caribeños. En las Antillas españolas,y Venezuela en
+                  Centroamérica (a excepción de Panamá y Costa Rica) y en partes de Venezuela, se
+                  conoce como tostón.</p>
               </div>
             </div>
           </div>
@@ -178,50 +198,654 @@
 
     </section>
 
-    <br><br>
+    <p class="aviso"><strong>"Haz click en la imagen para obtener la receta"</strong></p>
 
-    <hr>
-    <!-- ingredientes y preparacion ****************************************************************-->
+    <!-- this is my MODAL SECTION*************************************************** -->
 
-    <section id="ingrPrep">
+    <div class="modal fade" id="pabellon" tabindex="-1" aria-hidden="true"
+      aria-labelledby="pabellon-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="pabellon-title">Receta de Pabellon Criollo
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-      <div class="ingPrepContent">
-        <h2>Ingredientes</h2>
+            <h5>Caraotas negras</h5>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <ul>
+              <li>1 kg de caraotas negras</li>
+              <li>12 tazas de agua</li>
+              <li>1 cebolla grande cortada o rallada</li>
+              <li>½ pimentón</li>
+              <li>3 cucharadas de sal</li>
+              <li>½ cucharadita de pimienta negra</li>
+              <li>250 gramos de papelón (opcional)</li>
+              <li>1 cucharadita de comino (opcional)</li>
+              <li>6 lonjas de tocineta</li>
+              <li>5 dientes de ajo machacado</li>
+            </ul>
+
+
+
+            <h5>Arroz</h5>
+
+
+            <ul>
+              <li>2 tazas de arroz</li>
+              <li>4 tazas de agua</li>
+              <li>1 cebolla mediana</li>
+              <li>½ pimentón rojo o 3 ajíes dulces</li>
+              <li>2 cucharaditas de sal</li>
+              <li>2 cucharaditas de aceite vegetal</li>
+              <li>3 dientes de ajo</li>
+              <li>Preparación</li>
+            </ul>
+
+
+            <h5>Carne Mechada</h5>
+
+
+            <ul>
+              <li>1 kilo de carne (Falda)</li>
+              <li>2 tazas de agua</li>
+              <li>1 diente de ajo</li>
+              <li>1 taza de cebollas picadas</li>
+              <li>2 ajíes dulces picaditos</li>
+              <li>2 cucharadas de salsa inglesa</li>
+              <li>½ cucharadita de pimienta negra</li>
+              <li>1 cucharada de pasta de tomate</li>
+              <li>½ cebolla</li>
+              <li>½ pimenton</li>
+              <li>½ taza de aceite vegetal</li>
+              <li>3 dientes de ajo machacado</li>
+              <li>2 tazas de tomates perita maduros</li>
+              <li>1 ½ cucharada de sal</li>
+              <li>Una pizca de comino</li>
+            </ul>
+
+
+
+            <h5>Plátano frito</h5>
+
+
+            <ul>
+              <li>2 o 3 plátanos maduros</li>
+              <li>½ taza de aceite vegetal</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+
+            <h5>caraotas</h5>
+
+            <p>
+              Limpiar las caraotas y seleccionar los granos. Desechar todas las que floten en el
+              agua.
+              Colocarlas en una olla con agua, la cebolla picada por la mitad y el pimentón.
+              Cocinar a fuego alto hasta que hiervan. Luego, bajar la llama y cocinar
+              aproximadamente
+              una hora hasta que los granos ablanden.
+              Retirar la cebolla y el pimentón; Añadir la sal, la pimienta y el papelón o el comino
+              (el que desee).
+              Cocinar hasta ablandar y agregar más agua si hace falta. Retirar la espuma que se va
+              formando encima con una espumadera.
+              Freír en un caldero la tocineta y cuando suelte la grasa, agregar los ajos, la cebolla
+              rallada y cristalizar; añadir el sofrito a las caraotas y cocinar 20 minutos más o
+              hasta
+              lograr el espesor que se desee.
+            </p>
+
+            <h5>Arroz blanco</h5>
+
+            <p>
+              Calentar las 2 cucharadas de aceite en la olla de arroz. Añadir los ajos, la cebolla,
+              el
+              pimentón o los ajíes dulces y luego el arroz, moviéndolo para que se le impregne del
+              aceite y los aliños.
+              Agregar el agua y llevar a un hervor hasta que el arroz comience a secar. Bajar la
+              llama, tapar hasta que seque y apagar el fuego.
+              Retirar los ajos, la cebolla, el pimentón o los ajíes y revolver para separar los
+              granos.
+            </p>
+
+            <h5>Carne Mechada</h5>
+
+            <p>
+              Hervir en una olla la carne con el agua, la cebolla, el pimentón y los dientes de ajo
+              hasta que ablande. Aproximadamente 1 hora (en olla de presión, 30 minutos)
+              Retirar del fuego y dejar enfriar para luego desmenuzar la carne en forma de hebras,
+              bien delgadas y reservar.
+              Calentar el aceite en un caldero y agregar los ajos. Dorar, sin quemar y añadir la
+              cebolla, el pimentón y los ajíes dulces. Cocinar a fuego medio hasta marchitar.
+              Agregar los tomates, la sal, la salsa inglesa, el comino y la pasta de tomate. Luego
+              añadir la carne, por último, el caldo donde se cocinó la carne.
+              Cocinar a fuego medio, moviéndose bien. Dejar secar hasta que la carne este lista.
+            </p>
+
+            <h5>platanos fritos</h5>
+
+            <p>
+              Cortar los plátanos en tajadas, diagonalmente.
+              Calentar el aceite y freír las tajadas, primero por un lado y luego por el otro, hasta
+              que se doren sin que se quemen.
+              Retirar las tajadas y colocarlas en papel absorbente para quitar el exceso de grasa.
+            </p>
+
+
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-      <div class="ingPrepContent">
-        <h2>Preparacion</h2>
+    <div class="modal fade" id="arepa" tabindex="-1" aria-hidden="true"
+      aria-labelledby="arepa-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="arepa-title">Receta de Arepa
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <ul>
+              <li>800 gramos de harina de maíz</li>
+              <li>500 mililitros de agua</li>
+              <li>1 cucharadita de sal</li>
+              <li>1 cucharadita de aceite</li>
+              <li>Queso en lonchas</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Echa el agua en un bol, añade la cucharadita de sal y disuélvela. Ve agregando la
+                harina
+                precocida de maíz poco a poco. Una vez la hayas echado toda, ve amasando hasta
+                formar
+                una masa homogénea.
+              </li>
+
+              <li>
+                Sigue amasando hasta que te quede completamente integrada. Déjala reposar por unos 5
+                minutos y retoma el amasado. Si, después de dejarla reposar, la masa está muy
+                líquida o
+                muy seca, añade más harina o agua respectivamente.
+              </li>
+
+              <li>
+                Forma bolitas medianas con la masa, con esta receta te saldrán unas 8 arepas.
+                Comienza a
+                aplanarlas con las palmas de las manos para hacer la forma tradicional de la arepa.
+                Deben quedar de al menos 1 centímetro de grosor.
+              </li>
+
+              <li>
+                Coloca una cucharadita de aceite en una plancha y extiéndelo sobre toda la
+                superficie
+                con ayuda de un papel de cocina. Calienta y lleva las arepas a la plancha. Cocina a
+                fuego bajo hasta que veas que se han endurecido de un lado. Entonces, voltéalas y
+                déjalas dorar por el otro lado.
+              </li>
+              <p>Truco: Hay quienes las prefieren más gruesas o más delgadas, ¡prepáralas a tu
+                gusto!</p>
+
+              <li>
+                Haz un corte en uno de los lados de las arepas y ve cortando a lo largo de toda la
+                circunferencia. Ábrelas y rellénalas con queso y mantequilla. Este paso es opcional,
+                pero puedes meterlas todas al horno por 10 minutos a 170 ºC para que el queso se
+                derrita
+                y las arepas se doren un poco más.
+              </li>
+              <p>
+                Truco: Para evitar que el relleno se salga, no abras toda la arepa, solo la parte
+                superior por la que meterás el relleno.
+              </p>
+              <li>
+                Sirve tus arepas venezolanas en el desayuno o cena y disfrútalas. No hace falta que
+                las
+                acompañes con nada más que un delicioso jugo de frutas. ¡Buen provecho!
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-    </section>
+    <div class="modal fade" id="hallaca" tabindex="-1" aria-hidden="true"
+      aria-labelledby="hallaca-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="hallaca-title">Receta de Hallaca
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
+            <h5>Para el aceite onotado o aceite de color:</h5>
 
+            <ul>
+              <li>2 tazas de aceite</li>
+              <li>¼ de taza de granos de onoto (semillas de achiote, annatto, color)</li>
+              <li>10 ajos con concha</li>
+            </ul>
+
+            <h5>Para el guiso o relleno de las hallacas:</h5>
+
+            <ul>
+              <li>1 kg de carne de res picada en cubos</li>
+              <li>½ kg de carne de cerdo picaba en cubos puede ser pernil o lomo</li>
+              <li>½ kg de costillitas de cerdo picadas</li>
+              <li>1 limón</li>
+              <li>¼ de taza de aceite onotado (aceite de color)</li>
+              <li>1 ½ tazas de cebolla blanca finamente picada</li>
+              <li>1 taza de cebollín rebanado</li>
+              <li>10 dientes de ajo machacados</li>
+              <li>1 taza de tomate picado en cuadritos no tan maduro</li>
+              <li>½ taza de ají dulce finamente picado</li>
+              <li>¼ de taza de alcaparras desaguada</li>
+              <li>¼ de taza de aceitunas verdes con hueso</li>
+              <li>½ taza de encurtidos picados</li>
+              <li>3 cucharadas de papelón rallado (panela, piloncillo, chanchaca)</li>
+              <li>½ taza de perejil picadito</li>
+              <li>1 cucharada de paprika</li>
+              <li>2 cucharadas de harina de maíz</li>
+              <li>1 taza de caldo de res</li>
+              <li>1 taza de vino dulce opcional</li>
+            </ul>
+
+            <h5>Para la masa de las hallacas:</h5>
+
+            <ul>
+              <li>1 ½ kg de harina de maíz precocida preferiblemente color amarillo</li>
+              <li>1 taza de aceite de onotado</li>
+              <li>12 tazas de caldo de pollo tibio</li>
+            </ul>
+
+            <h5>Para el decorado de las hallacas:</h5>
+
+            <ul>
+              <li>2 pimentones morrones rojos</li>
+              <li>2 cebollas blancas</li>
+              <li>½ taza de alcaparras 2 por hallaca</li>
+              <li>1 taza de aceituna 1 por hallaca</li>
+              <li>¾ tazas de pasas sin semillas 3 por hallaca</li>
+              <li>¼ de taza de encurtidos escurridos opcional</li>
+              <li>2 pechugas de pollo cocidas opcional</li>
+              <li>Para armar y envolver las hallacas</li>
+              <li>4 kilos de hojas de plátano</li>
+              <li>1 rollo de hilo pabilo</li>
+              <li>¾ de taza de aceite onotado</li>
+              <li>Un puñado de sal</li>
+              <li>Agua suficiente para hervir</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <h5>Preparación del aceite onotado o aceite de color:</h5>
+
+            Machacar ligeramente los ajos y colocar en una ollita pequeña con el aceite y los granos
+            de onoto.
+            Llevar a la cocina hasta que hierva unos minutos.
+            Aceite onotado o aceite de color para hallacas
+            Retirar del fuego y dejar enfriar.
+            Cuando este a temperatura ambiente colar y desechar los granos.
+            Reserve el aceite onotado pues lo usara en varias ocasiones a lo largo del proceso de
+            preparación de las hallacas.
+
+            <h5>Preparación del guiso o relleno de las hallacas:</h5>
+
+            Lavar muy bien la carne de res y eliminar los pellejos o trozos de grasa sobrantes.
+            Secar con toallas de papel y reservar. Lavar la carne de cerdo y frotar con el jugo de
+            limón; dejar reposar con el limón unos diez minutos y enjuagar nuevamente.
+            Colocar el aceite de onoto en una olla grande, y luego añadir la cebolla, cebollín y
+            ajo; rehogar por algunos minutos, e incorporar el ají dulce y el pimentón. Con la ayuda
+            de una cuchara grande, retirar los aliños de la olla y subir la temperatura al máximo.
+            Preparando el guiso de las hallacas
+            En la misma olla, colocar la carne de cerdo y sellarla a fuego alto, retírela y reserve
+            conjuntamente con los aliños, repita este procedimiento para la carne de res y las
+            costillitas.
+            Preparando el guiso de las hallacas
+            Regrese los aliños y todas las carnes a la olla y agregue el resto de los ingredientes:
+            el tomate, el papelón, las aceitunas, la paprika, la harina de maíz, el caldo de res y
+            el vino. Con la ayuda de una cuchara, preferiblemente de madera mezcle todos los
+            ingredientes y cocine a fuego bajo por 90 minutos aproximadamente.
+            Por último, añada las alcaparras, el perejil y los encurtidos; mezcle bien y continúe
+            cocinando a fuego lento hasta que el guiso este bastante seco.
+            Cuando el guiso esté listo, déjelo reposar por unas dos horas antes de usarlo. Luego con
+            mucho cuidado retire los huesos de las costillitas de cochino y ya el guiso estará
+            listo.
+            Note que el guiso no lleva sal, en la mayoría de los casos, es suficiente con la sal de
+            las aceitunas y alcaparras. Sin embargo, cuando esté listo, pruebe y rectifique de sal.
+            Preparación de la masa de las hallacas:
+            En un envase o fuente muy grande, agregue 10 tazas de caldo de pollo, e incorpore
+            lentamente la harina de maíz precocida; si es posible hágalo con la ayuda de otra
+            persona, lo cual le permitirá amasar con ambas manos. Agregue el aceite onotado y siga
+            amasando hasta obtener una consistencia homogénea. Si lo requiere agregue poco a poco
+            las dos tazas de caldo restantes.
+            Lleve la masa a una superficie plana y continué amasando, si la mezcla aun es pegajosa
+            espolvoree con harina de maíz hasta que la masa no se adhiera a la superficie.
+            Cuando la masa tenga la consistencia deseada, forme veinte bolas de tamaño similar y
+            conserve tapadas en un platón hasta el armado de las hallacas.
+            Preparación del decorado de las hallacas:
+            Pele la cebolla y corte en finas rodajas
+            Pele el pimentón, retire las venas y las semillas. Corte en finas rodajas.
+            Desmeche la pechuga de pollo en trozos grandes, procure unos veinte trozos.
+            Escurra las alcaparras, las aceitunas y los encurtidos.
+            Reserve todo el decorado para el armado de las hallacas
+            Instrucciones para armar y envolver las hallacas:
+            Lave muy bien las hojas bajo el agua corriente y séquelas con un paño. Debe separar las
+            hojas en tres partes de acuerdo a su tamaño. Las más grandes serán usadas para colocar
+            la masa. Las medianas servirán de forro y las más estrechas son las fajas. Cuando las
+            hojas estén listas dispóngalas en un mesón grande con el resto de los ingredientes, en
+            envases separados: El guiso, los adornos, las bolas de masa y el aceite onotado.
+            Coloque una hoja grande, unte sus dedos con un poco de aceite onotado y ponga encima una
+            esfera de masa y aplástela con los dedos, extendiéndola hasta obtener un circulo de masa
+            de unos 3 mm de espesor.
+            En el centro de la masa, ponga tres cucharadas grandes de guiso y encima del guiso, una
+            rueda de cebolla, una rueda de pimentón, dos alcaparras, una aceituna, dos pasas y un
+            trozo de pollo.
+            Preparando hallacas
+            Levante los dos extremos de la hoja, uno con cada mano y únalos suavemente. Mantén
+            suspendida la hallaca sobre su propio peso para que el guiso y los rellenos queden en el
+            centro y enrolla con cuidado hasta que quede suficientemente apretada.
+
+            Sujeta hacia atrás los dos extremos de la hoja, luego cubre con una faja toda la hallaca
+            envolviéndola y sujetando las dos hojas en sentido inverso.
+
+            Por último, coloca una faja a modo de cinturón y amarra con pabilo, dando tres vueltas
+            en los dos sentidos.
+
+            En una olla muy grande coloque agua hasta la mitad y agregue un puñado de sal. Cuando el
+            agua este hirviendo a borbotones coloque las hallacas con cuidado y cocine tapadas por
+            45 minutos.
+            Retire cuidadosamente con una espumadera y deje escurriendo hasta que se enfríen. Puede
+            refrigerar las hallacas hasta por una semana.
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mondongo" tabindex="-1" aria-hidden="true"
+      aria-labelledby="mondongo-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="mondongo-title">Receta de Mondongo
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>1 pizca de Sal</li>
+              <li>3 kilogramos de Panza de ganado</li>
+              <li>1 unidad de Rabo de ganado grande</li>
+              <li>1 unidad de Pata de ganado grande</li>
+              <li>6 kilogramos de Verdura picada en cuadritos</li>
+              <li>2 kilogramos de Papa picadas en cuadritos</li>
+              <li>1 cabeza de Ajo machacado suficiente al gusto</li>
+              <li>1 unidad de Pimentón grande picadito fino</li>
+              <li>2 unidades de Cebollas grandes picaditas</li>
+              <li>2 cubos de Carne al gusto</li>
+              <li>1 unidad de Ajo porro grande picadito</li>
+              <li>2 ramas de Cebollines picaditos</li>
+              <li>6 unidades de Jojotos picados en ruedas</li>
+              <li>1 manojo de Cilantro</li>
+              <li>200 gramos de Aceitunas con pepa</li>
+              <li>½ lata de Alcaparra</li>
+              <li>½ unidad de Repollo picado en tiras</li>
+              <li>1 paquete de Tortas de casabe para servir</li>
+              <li>1 pizca de Ají dulce</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Para empezar a hacer este mondongo criollo venezolano, el primer paso que tenemos
+                que
+                hacer es lavar la panza de ganado hasta quitarle el olor con bastante limón y
+                después
+                ponerla a sancochar hasta que se ablande cambiándole el agua en la mitad de la
+                cocción
+                la noche antes de la preparación de la receta de mondongo. Luego guardar la panza
+                sancochada bien tapada en la olla hasta el día siguiente.
+              </li>
+
+              <li>
+                Entonces en la mañana empezamos la preparación del mondongo venezolano: cocinar en
+                la
+                olla de la sopa de mondongo la pata y el rabo de ganado (previamente bien lavados)
+                hasta
+                que estén blandos, echándole agua de la que tenemos de cuando se ablandó la panza.
+              </li>
+
+              <li>
+                Cuando la pata y el rabo estén medio blandos colocarle la verdura dura (la que tarda
+                más
+                en cocinarse) y los jojotos y seguir cociendo. Luego cuando ya este casi esté a
+                punto de
+                ablandarse lo que tenemos en esa olla, echarle la verdura blanda junto con los demás
+                ingredientes, y el cilantro se lo echamos cuando esté a punto de terminar de cocinar
+                el
+                mondongo venezolano.
+              </li>
+
+              <li>
+                Para que el mondongo criollo venezolano esté más sabroso y espeso no hay que
+                servirlo
+                inmediatamente después de que se haya cocinado, sino que es mejor guardarlo hasta el
+                día
+                siguiente y servirlo en totumas.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="bollos" tabindex="-1" aria-hidden="true"
+      aria-labelledby="bollos-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="bollos-title">Receta de Bollos Pelones
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <h5>Masa:</h5>
+
+            <ul>
+              <li>2 tazas de Harina PAN (harina de maíz precocida blanca o amarilla)</li>
+              <li>2 ½ tazas de caldo de pollo</li>
+              <li>1 cucharada de aceite de maíz</li>
+            </ul>
+
+            <h5>Guiso de carne molida para el relleno:</h5>
+
+            <ul>
+              <li>½ libra de carne de res molida (puedes reemplazar por carne molida de cerdo)</li>
+              <li>2 dientes de ajo machacado</li>
+              <li>¼ taza de pimentón rojo</li>
+              <li>½ cebolla blanca</li>
+              <li>3 tiras de tocineta finamente picada</li>
+              <li>Adobo al gusto</li>
+              <li>Pasta de tomate</li>
+              <li>1 lata de tomates cortados en trozos pequeños</li>
+              <li>¼ de taza de aceitunas verdes cortadas (sin hueso y rellenas de pimentón)</li>
+              <li>2 cucharadas de alcaparras</li>
+              <li>½ taza de vino rojo de cocina (opcional)</li>
+            </ul>
+
+            <h5>Salsa:</h5>
+
+            <ul>
+              <li>½ cebolla mediana</li>
+              <li>½ pimentón rojo</li>
+              <li>½ lata de tomates y 2 cucharadas de pasta de tomate</li>
+              <li>2 ajos machacados</li>
+              <li>Sal al gusto</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <h5>Relleno:</h5>
+
+            <p>
+              Coloque en una sartén con aceite caliente el ajo machacado, el pimentón, tocineta y la
+              cebolla finamente picada, luego añáde la carne molida, sazona con el adobo.
+            </p>
+
+            <p>
+              Cuando la carne ya este cocida, agrega los tomates, las aceitunas, las alcaparras, el
+              vino rojo y
+              la pasta de tomate a la carne molida, baja la temperatura, tapalo y deja que espese un
+              poco.
+            </p>
+
+            <h5>Masa:</h5>
+
+            <p>
+              Para preparar la masa debe tener el caldo de pollo listo y tibio, luego añade la
+              harina
+              y la cucharada de aceite, para darle mayor suavidad a la masa.
+              Déjela reposar por 5 minutos aproximadamente.
+            </p>
+
+            <h5>Salsa de tomate:</h5>
+
+            <p>
+              Licuar los tomates enlatados, el pimentón y la cebolla, luego colocar
+              en una olla las cucharadas de pasta de tomate, la sal y el ajo. Cocinar hasta que
+              espese.
+            </p>
+
+            <h5>Bollos:</h5>
+
+            <p>
+              Haz una bola de masa (un poquito más grande que una pelota de golf) y ábrele un
+              agujero
+              en el centro, rellenala con la carne molida ya preparada, cierra y dale la forma
+              redonda
+              nuevamente.
+            </p>
+
+            <p>
+              Elimina los excesos de masa y usa un poquito de agua para alisarlos.
+              Así hazlo con todos los bollos hasta que termine la masa. Colocalos en un plato hasta
+              el
+              momento de cocinarlos.
+            </p>
+
+            <p>
+              Pon una olla honda a hervir con agua, agrega cuidadosamente los bollitos para que no
+              se
+              rompan. Dejarlos cocinar por 15 minutos aproximadamente y los veras flotar una vez
+              estén
+              listos. Sacalos con cuidado, dejar escurrir y reposar (asi endurecen un poco).
+            </p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="patacones" tabindex="-1" aria-hidden="true"
+      aria-labelledby="patacones-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="patacones-title">Receta de Patacones
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>huevos</li>
+              <li>jamón</li>
+              <li>queso de mano, amarillo, parmesano o de año</li>
+              <li>carne, pollo o pernil</li>
+              <li>plátano verde</li>
+              <li>lechuga y tomates</li>
+              <li>salsa tradicionales, mayonesa, tomate y mostaza</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                si compra las hojitas de plátano para hacer patacón, el proceso para la preparación será
+                más práctico, pero si no, entonces debe pelar el plátano que esté bien verde, luego
+                córtelo en dos de arriba hacia a bajo lo medio sofríe, y sobre una tablita lo aplasta
+                con una piedra para volverlo a llevar a la sartén hasta que se vea crujiente, se coloca
+                en una servilleta para absorber el aceite y posteriormente se procede a colocarle el
+                relleno.
+              </li>
+              <li>A su gusto le puede colocar carne mechada, pollo y carne en trocitos o pernil.</li>
+              <li>
+                Luego le agrega el jamón, queso de mano y queso amarillo, posteriormente los vegetales;
+                lechuga y tomate. No olvide los huevos en rebanada y para finalizar la salsa de tomate,
+                mayonesa y mostaza y un toque de queso parmesano o de año. Listo para comer un rico y
+                delicioso patacón.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- this is the end of my MODAL SECTION********************************************** -->
 
 
 
@@ -239,32 +863,52 @@
       <div class="historia">
 
 
-        <h3>Breve historia</h3>
+        <h3>Cocina Venezolana</h3>
 
-        <img class="historyImg" src="../img/historia.jpg" alt="frenchHistoryImage">
+        <img class="historyImg"
+          src="https://elviajerofeliz.com/wp-content/uploads/2020/09/comida-tipica-de-venezuela.jpg"
+          alt="venezuelanfoodimage">
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quas iusto ut ipsa, ab impedit rem possimus, repellendus saepe perferendis pariatur, expedita a modi libero consectetur aperiam voluptatem incidunt error.</p>
+        <p>
+          La gastronomía de Venezuela es muy variada, y es el resultado de la mezcla cultural y
+          gastronómica procedentes de Europa (especialmente de España, Italia, Alemania,Francia y
+          Portugal) y África (a través de las poblaciones de esclavos llevados por los españoles)
+          con
+          la gastronomía de los pueblos indígenas de Venezuela. En su conjunto ha recibido
+          influencias
+          notables de la gastronomía mediterránea. Quizás el plato más conocido es la arepa, una
+          especie de bollo asado circular de masa de maíz que se consume rellena con otros alimentos
+          o
+          se utiliza como acompañante. Otros platos muy conocidos también son el pabellón criollo,
+          la
+          hallaca, el sancocho, la carne a la parrilla, el asado negro, el mondongo, la cachapa y el
+          pollo en brasas.
+        </p>
 
+        <p>
+          Los platillos venezolanos pueden variar depende de la zona geográfica del país. La
+          gastronomía venezolana es variada, y en ocasiones puede resultar de la mezcla de culturas
+          que en el pasado habitaban el país, como lo son la de los indígenas y luego la llegada de
+          los europeos que desde sus tierras trajeron consigo diversidad gastronómica como la
+          española, italiana y del mediterráneo. Algunos de los ingredientes más comunes en las
+          preparaciones son cereales como el arroz y el maíz, lentejas, caraotas, arvejas, frijoles
+          y
+          otros granos, tubérculos como la papa, el ñame y la batata; raíces tuberosas como la yuca,
+          el ocumo y el ocumo chino, carnes como la de res, pollo, gallina, carne de chivo, cochino
+          (cerdo), chigüire (capibara), venado y una gran variedad de pescados y mariscos. Es
+          importante también la variedad de frutas tropicales como el mango, el cambur, la lechoza,
+          la
+          guayaba y la parchita.
+        </p>
 
-
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque consequatur deserunt
-          tempora itaque nobis exercitationem doloribus reiciendis nesciunt temporibus, rerum
-          cum
-          quo
-          architecto possimus adipisci sequi, necessitatibus porro maxime laudantium!
-          París, ciudad gastronómica
-          París era el centro creativo culinario en el mundo. Gradualmente la industria de la
-          hospitalidad
-          se estableció. Los
-          modales en la mesa y el sabor francés se volvieron un modelo internacional.</p>
-
-
-
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, accusamus voluptas. Totam non, in eaque iusto id, doloribus consequatur reiciendis vitae, ad quidem illo adipisci molestias alias enim tempore nostrum.</p>
-
-
+        <p>
+          Venezuela tiene varios platos representativos de carácter nacional como lo son, la arepa,
+          el
+          pan de jamón, el tequeño, el pabellón criollo y la hallaca típica en la época de Navidad.
+          Entre los platos regionales más representativos están la pisca andina, patacón, asopado de
+          mariscos (fosforera), tostada caroreña, arepa andina, el pelao guayanés, cuaja'o, torta de
+          cazón; entre otros.
+        </p>
 
       </div>
 
@@ -333,4 +977,3 @@
 </body>
 
 </html>
-

@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cocina Francesa</title>
   <meta name="descripcion" content="cocina de Francia y sus respectivas recetas">
-  <meta name="keywords" content="cocina, recetas, historia, ingredientes, preparacion, francesa, ratatouille, blanquette, cassoulet, Tarta, tatin, confit, pato, milhojas, chocolate">
+  <meta name="keywords"
+    content="cocina, recetas, historia, ingredientes, preparacion, francesa, ratatouille, blanquette, cassoulet, Tarta, tatin, confit, pato, milhojas, chocolate">
   <!-- estilos ********************************************************************************-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -20,11 +21,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;900&display=swap"
     rel="stylesheet">
-     <!-- ANIMATIONS**************************************************************** -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-   />
+  <!-- ANIMATIONS**************************************************************** -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -37,7 +36,9 @@
     <div id="imgAnimation"><a href="../index.html"><img class="header__img" src="../img/logo.jpg"
           alt="logo-here"></a>
     </div>
-    <h1 class="header__bigHeader animate__animated animate__fadeInUp">Cocinas del Mundo</h1>
+    <div class="header__bigHeader">
+      <h1 class="animate__animated animate__fadeInUp">Francesa</h1>
+    </div>
 
     <!-- NAVBAR ********************************************************************************-->
 
@@ -78,13 +79,10 @@
 
 
 
-    <h2 class="principal__subtitle">Francesa</h2>
-
-
 
     <section id="carousel">
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
 
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -110,8 +108,9 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="principal__imgRef"><img src="../img/fracesa/ratatouille.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="ratatouille">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#ratatouille"
+                data-bs-toggle="modal" role="button"><img src="../img/fracesa/ratatouille.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="ratatouille"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Ratatouille</h5>
                 <p>Se trata de un plato a base de verduras: berenjena, calabacín, tomate, pimiento y
@@ -120,8 +119,10 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"> <img src="../img/fracesa/Blanquette de ternera.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Blanquette de ternera">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#Blanquette-de-ternera"
+                data-bs-toggle="modal" role="button"><img
+                  src="../img/fracesa/Blanquette de ternera.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Blanquette de ternera"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Blanquette de ternera</h5>
                 <p>La blanquette de ternera es un plato principal típicamente francés a base de
@@ -131,8 +132,9 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/fracesa/cassoulet.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="cassoulet">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#cassoulet"
+                data-bs-toggle="modal" role="button"><img src="../img/fracesa/cassoulet.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="cassoulet"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Cassoulet</h5>
                 <p>El Cassoulet es fundamentalmente un guiso hecho con alubias blancas o frijoles, y
@@ -142,9 +144,11 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img
-                src="../img/fracesa/Tarta tatín de tomate y queso de cabra.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Tarta tatin de tomate y queso">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#tarta-tatin"
+                data-bs-toggle="modal" role="button"><img
+                  src="../img/fracesa/Tarta tatín de tomate y queso de cabra.jpg"
+                  class="d-block w-100 img-fluid principal__img2"
+                  alt="Tarta tatin de tomate y queso"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Tarta tatin de tomate y queso</h5>
                 <p>Su origen se encuentra en el 'Hotel Tatín', que estaba
@@ -154,8 +158,9 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/fracesa/confit de pato.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="confit de pato">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#confit-de-pato"
+                data-bs-toggle="modal" role="button"><img src="../img/fracesa/confit de pato.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="confit de pato"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Confit de pato</h5>
                 <p>El confit de pato se prepara en un proceso de conservación que tiene siglos de
@@ -165,8 +170,10 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="principal__imgRef"><img src="../img/fracesa/Milhojas de chocolate.jpg"
-                class="d-block w-100 img-fluid principal__img2" alt="Milhojas de chocolate">
+            <div class="principal__imgRef"><a class="btn-outline-dark" href="#milhojas"
+                data-bs-toggle="modal" role="button"><img
+                  src="../img/fracesa/Milhojas de chocolate.jpg"
+                  class="d-block w-100 img-fluid principal__img2" alt="Milhojas de chocolate"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Milhojas de Chocolate</h5>
                 <p>El milhojas es un dulce tradicional atribuido a la repostería francesa, es un
@@ -192,52 +199,439 @@
 
     </section>
 
-    <br><br>
+    <p class="aviso"><strong>"Haz click en la imagen para obtener la receta"</strong></p>
 
-    <hr>
-    <!-- ingredientes y preparacion ****************************************************************-->
+    <!-- MODALS--------------------------------------------------------------------- -->
 
-    <section id="ingrPrep">
+    <div class="modal fade" id="ratatouille" tabindex="-1" aria-hidden="true"
+      aria-labelledby="ratatouille-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="ratatouille-title">Receta de Ratatouille</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-      <div class="ingPrepContent">
-        <h2>Ingredientes</h2>
+            <ul>
+              <li>1 berenjena</li>
+              <li>2 calabacines</li>
+              <li>2 tomates grandes</li>
+              <li>1 pimiento verde</li>
+              <li>1 pimiento rojo</li>
+              <li>1 cebolla grande</li>
+              <li>2 dientes de ajo</li>
+              <li>aceite de oliva virgen extra</li>
+              <li>sal</li>
+              <li>hierbas provenzales (orégano, romero, tomillo, albahaca, mejorana, etc.)</li>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+
+            <ol>
+              <li>
+                Comenzamos cortando la berenjena en rebanadas de aproximadamente medio centímetro de
+                espesor, y las disponemos en un colador con sal para que «suden» y pierdan su
+                amargor.
+              </li>
+              <li>
+                Mientras tanto preparamos el resto de las verduras: las cortamos en rebanadas de
+                medio
+                centímetro.Picamos el ajo bien fino y reservamos.
+              </li>
+              <li>Encendemos el horno para que se caliente, a 180°C, estático.</li>
+              <li>Necesitaremos una fuente apta para horno con bordes altos, La vamos a engrasar
+                bien pincelándola con aceite.</li>
+              <li>
+                Ahora vamos a ir colocando las rebanadas de verduras en espiral: vamos alternando
+                los
+                diferentes tipos de verduras y colores, poniendo las rebanadas en vertical
+                comenzando
+                desde el borde de la bandeja, una después de la otra yendo hacia el centro, hasta
+                formar
+                una espiral. Para que nos quede bien bonito es importante que la fuente no sea ni
+                demasiado grande ni demasiado pequeña, el tamaño justo para que las verduras se
+                mantengan verticales pero que al mismo tiempo no queden muy apretadas.
+              </li>
+              <li>
+                En un cuenco mezclamos unas 3 o 4 cucharadas de aceite con las hierbas provenzales y
+                el
+                ajo picado, y distribuimos este aderezo por encima de las verduras. Por encima
+                ponemos
+                un poco de sal.
+              </li>
+              <li>
+                Llevamos al horno precalentado a 180°C, con la rejilla en la parte más baja del
+                horno
+                para que las verduras no se nos doren demasiado por encima. Las cocinamos por
+                aproximadamente 40 minutos, o hasta que las verduras estén bien tiernas.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-      <div class="ingPrepContent">
-        <h2>Preparacion</h2>
+    <div class="modal fade" id="Blanquette-de-ternera" tabindex="-1" aria-hidden="true"
+      aria-labelledby="Blanquette-de-ternera-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="Blanquette-de-ternera-title">Receta de Blanquette de Ternera
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo
-          consequat. Duis
-          aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
+            <ul>
+              <li>1 kg de ternera (hombro, pecho o falda), cortado en cubos grandes</li>
+              <li>1 cebolla (con clavos de olor enteros clavados)</li>
+              <li>1 atadillo (perejil, tomillo, laurel, salvia)</li>
+              <li>4 zanahorias , cortadas en grandes secciones</li>
+              <li>250 ml de vino blanco seco</li>
+              <li>300 g de champiñones , en cuartos</li>
+              <li>50 g de mantequilla</li>
+              <li>50 g de harina</li>
+              <li>200 ml de crema fresca</li>
+              <li>½ limón en jugo</li>
+              <li>3 yemas de huevo</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Coloque los cubos de carne en una cacerola grande y cubra con agua fría. Ponga a
+                hervir
+                y añada la sal.
+              </li>
+              <li>
+                Quite la grasa de la superficie regularmente para que el caldo quede claro. Después
+                de
+                20 minutos, agregue la cebolla con los clavos clavados y el atadillo.
+                Cocine a fuego lento durante otros 20 minutos, luego agregue las zanahorias y el
+                vino.
+              </li>
+              <li>
+                Continúe cocinando a fuego lento, sin tapar, durante otros 45 minutos o hasta que la
+                carne esté tierna. Añada un poco de agua durante la cocción si es necesario. Retire
+                la
+                cebolla y el atadillo.
+              </li>
+              <li>
+                Mientras tanto, saltee los champiñones en una sartén durante 2 minutos con un botón
+                de
+                mantequilla. Agregue sal, pimienta, un cucharón de caldo y continúe cocinando
+                durante 5
+                minutos.
+              </li>
+            </ol>
+
+            <h4>Salsa (preparar unos minutos antes de servir)</h4>
+
+            <ol>
+              <li>
+                En una cacerola, derrita la mantequilla. Añada la harina mientras bate y cocine a
+                fuego
+                lento, durante 5 minutos.
+              </li>
+              <li>
+                Agregue gradualmente el caldo de cocción, mientras bate, hasta que la salsa alcance
+                una
+                consistencia espesa.
+              </li>
+              <li>
+                Añada la crema fresca, así como el jugo de limón, y continúe cocinando durante 2
+                minutos.
+              </li>
+              <li>
+                Retire la sartén del fuego y agregue las yemas de huevo. Bata bien para que todo se
+                incorpore.
+              </li>
+              <li>
+                Añada esta salsa a la sartén con la carne y las verduras. Agregue los
+                champiñones y revuelva suavemente para incorporar todo.
+              </li>
+
+            </ol>
+
+            Sirva la blanquette inmediatamente con arroz.
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-    </section>
+    <div class="modal fade" id="cassoulet" tabindex="-1" aria-hidden="true"
+      aria-labelledby="cassoulet-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="cassoulet-title">Receta de Cassoulet</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>300 g de judías blancas (poner en remojo el día de antes)</li>
+              <li>140 g de tocino</li>
+              <li>4 dientes de ajo grandes, picados</li>
+              <li>1 ramillete de hierbas hecho con 4 ramitas de perejil, 6 ramitas de tomillo fresco
+                y una hoja de laurel</li>
+              <li>Sal y pimienta</li>
+              <li>8 salchichas de Toulouse</li>
+              <li>4 trozos de confit de oca o de plato de unos 400 g</li>
+              <li>400 g de paletilla de cerdo deshuesada y cortada</li>
+              <li>Caldo de pollo o de verduras</li>
+              <li>200 g de pan del día anterior desmenuzado</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Procedemos a introducir las judías blancas en una cazuela y las cubrimos de agua.
+                Las
+                hervimos a fuego fuerte durante 10 minutos, y posteriormente las escurrimos y las
+                volvemos a introducir en la cazuela limpia hasta llevarlas a ebullición. Una vez
+                lleguemos a ese punto, bajaremos el fuego al mínimo e iremos espumando la superficie
+                hasta que quede completamente clara.
+              </li>
+              <li>
+                Será momento entonces de añadir el tocino, el ajo, las hierbas y la pimienta,
+                dejándolo a fuego lento durante una hora y media. Cuando las judías estén ya casi
+                hechas
+                las pasaremos a un cuenco y eliminaremos las hierbas mientras reservamos el caldo.
+              </li>
+              <li>
+                A continuación asaremos las salchichas hasta que estén tostadas. Calentaremos 2
+                cucharadas de grasa de confit en una olla y saltearemos los trozos de carne restante
+                hasta que estén dorados.
+              </li>
+              <li>
+                Es momento de poner las judías en una cazuela grande, añadir las salchichas, el
+                confit
+                y la carne y sazonarlo al gusto. Añadiremos un poco de caldo y espolvorearemos la
+                mitad
+                del pan.
+              </li>
+              <li>
+                Debemos cocerlo todo durante 3 horas en el horno precalentado a 150º. Es importante
+                no
+                taparlo e ir presionando el pan para que pueda impregnarse mejor de líquido.
+                Finalmente
+                espolvoreamos el resto del pan y lo cocemos durante 1 hora más hasta que veamos que
+                se
+                ha formado una costra dorada sobre nuestra fuente.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="tarta-tatin" tabindex="-1" aria-hidden="true"
+      aria-labelledby="tarta-tatin-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="tarta-tatin-title">Receta de Tarta Tatin</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>Masa quebrada refrigerada (1)</li>
+              <li>Tomate (6)</li>
+              <li>Queso fresco de cabra (150 g)</li>
+              <li>Mostaza a la antigua , 4 cucharadiotas</li>
+              <li>Albahaca al gusto</li>
+              <li>Aceite de oliva virgen extra , 2 cucharadas</li>
+              <li>Sal y pimienta al gusto</li>
+            </ul>
+
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>Comenzaremos precalentando el horno a 180 grados con calor arriba y abajo. </li>
+
+              <li>Engrasamos con una de las cucharadas de aceite de oliva una fuente redonda de 24
+                centímetros que pueda ir al horno y disponemos los tomates ordenador cortados en
+                rodajas. Los salpimentamos, les añadimos el resto del aceite por encima y los
+                horneamos durante veinte minutos.</li>
+              <li>Una vez que pase el tiempo retiramos la fuente del horno y extendemos por encima
+                de los tomates el queso de cabra fresco desmigado junto con la mostaza a la antigua.
+              </li>
+
+              <li>Cubrimos con la pasta quebrada remetiendo los bordes sobrantes hacia dentro. </li>
+
+              <li>Horneamos durante treinta minutos. </li>
+
+              <li>Una vez que pase el tiempo dejamos reposar durante diez minutos hasta que pierda
+                algo de calor y con cuidado la desmoldamos en un plato grande para que queden los
+                tomates hacia arriba. </li>
+
+              <li>Espolvorear con unas hojas de albahaca fresca.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="confit-de-pato" tabindex="-1" aria-hidden="true"
+      aria-labelledby="confit-de-pato-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="confit-de-pato-title">Receta de Confit de Pato</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>2 muslo de pato</li>
+              <li>3 cucharadas de azúcar</li>
+              <li>2 cucharadas de sal</li>
+              <li>1 manojo de romero</li>
+              <li>1 manojo de eneldo</li>
+              <li>1 cucharada de aceite de oliva</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>
+                Retire toda la grasa del muslo, las piernas y cualquier parte adicional que tenga
+                del
+                pato. Si compró el pato sin grasa pida grasa de pato por aparte.
+              </li>
+              <li>
+                En un recipiente hondo marine el muslo de pato con el azúcar, la sal, el romero, el
+                eneldo y el aceite de oliva.
+              </li>
+              <li>En una olla pequeña derrita a fuego bajo la grasa de pato y retire del fuego.
+              </li>
+
+              <li>Deje enfriar por 10 minutos y agregue al recipiente hondo con los muslos de pato.
+              </li>
+              <li>
+                Cocine el muslo de pato en una olla con la marinada (incluyendo toda la grasa de
+                pato) a
+                un fuego muy bajo.
+              </li>
+
+              <li>
+                Es muy importante que se cocine a un fuego muy bajo para que el pato
+                se cocine y no se fría. Cocine el pato por 2 horas.
+              </li>
+              <li>
+                Retire el pato de la grasa y deje enfriar. El pato debería de haber quedado muy
+                suave,
+                desmenuce con las manos el pato.
+              </li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="milhojas" tabindex="-1" aria-hidden="true"
+      aria-labelledby="milhojas-title" data-bs-backdrop="static">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="milhojas-title">Receta de Milhojas</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Ingredientes.</h3>
+
+            <ul>
+              <li>100 g de mantequilla</li>
+              <li>1 paquete de masa filo</li>
+              <li>200 g de natillas</li>
+              <li>200 g de chocolate picado</li>
+              <li>100 g de avellanas tostadas picadas</li>
+              <li>Cacao en polvo.</li>
+            </ul>
+
+            <h3>Preparacion.</h3>
+
+            <ol>
+              <li>Precalienta el horno a 180 grados.</li>
+              <li>Derrite los 100 gramos de mantequilla en un cazo al fuego.</li>
+              <li>
+                Engrasa con la mantequilla que has derretido un molde antiadherente apto para el
+                horno y
+                postres.
+              </li>
+              <li>Coloca la masa filo de base.</li>
+              <li>Añade en la segunda capa un poco de natillas y vuelve a taparla con masa.</li>
+              <li>
+                Intercala la masa, con una capa de natillas, chocolate troceado y los 100 gramos de
+                avellanas picadas.
+              </li>
+              <li>
+                Cuando completes el molde tapa con una última capa de masa filo.
+                Recorta los sobrantes de la masa que han quedado en los laterales ayudado con un
+                cuchillo.
+              </li>
+              <li>Haz tres agujeros en la superficie de la preparación ayudado con un cuchillo.</li>
+              <li>Hornea durante 30 minutos a 180 grados.</li>
+              <li>Deja enfriar y espolvorea por encima cacao en polvo.</li>
+            </ol>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
 
 
 
+    <!-- final de MODALS*********************************************************************** -->
 
   </main>
 
@@ -253,45 +647,56 @@
       <div class="historia">
 
 
-        <h3>Breve historia</h3>
+        <h3>Cocina Francesa</h3>
 
-        <img class="historyImg" src="../img/historia.jpg" alt="frenchHistoryImage">
+        <img class="historyImg" src="https://www.cocinayvino.com/wp-content/uploads/2016/10/41222263_m.jpg" alt="frenchHistoryImage">
 
-        <p>Francia tiene una gran herencia culinaria. Seria realmente difícil compilar todos los
-          elementos de esta escena
-          gastronómica tan compleja en un solo escrito. La cocina francesa es realmente rica y
-          completa.
-          Esta logro entrar
-          dentro de los patrimonios culturales de la humanidad en el año 2010.</p>
+        <p>
+          Francia tiene una gran herencia culinaria. Seria realmente difícil compilar todos los
+          elementos de esta escena gastronómica tan compleja en un solo escrito. La cocina francesa es
+          realmente rica y completa. Esta logro entrar dentro de los patrimonios culturales de la
+          humanidad en el año 2010.
+        </p>
 
+        <p>
+          Los orígenes de la gastronomía francesa
+          La gastronomía francesa tiene sus raíces en la Edad Media, época de grandes banquetes. Las
+          especias apenas empezaban a ser usadas. El deseo de presentar mas y mas platillos
+          espectaculares llevo a que las veladas francesas constaran de entre tres y doce platillos
+          uno tras otro. También comenzó la repostería.
+        </p>
 
+        <p>
+          A partir de la revolución francesa, los platos empezaron a transformarse en creaciones de
+          una mucho mayor complejidad y exquisitez. Asimismo, se le empezó a dar mas uso a las hierbas
+          aromáticas y los vegetales. Luego de la revolución francesa, huyeron todos los «amos» de la
+          época y no había mas nobleza. Fue en este momento que los primeros restaurantes empezaron a
+          abrir. Un nuevo concepto había nacido.
+        </p>
 
+        <p>
+          El nacimiento de la Guía Michelín
+          Al comienzo del siglo 20 se creó el famoso directorio gourmet: la Guía Michelín. Esta
+          creación resulto en la revitalización de la creatividad y el interés por la gastronomía
+          local. La salade nicoise, los panqueques Breton, el confit de pato y la cassoulet se
+          forjaron como especialidades en diferentes regiones particulares. Los chef empezaron a ser
+          alabados por todas las personas. Era como una religión. Se transformaron en grandes
+          autoridades y empezaron a hacerse libros de cocina.
+        </p>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque consequatur deserunt
-          tempora itaque nobis exercitationem doloribus reiciendis nesciunt temporibus, rerum
-          cum
-          quo
-          architecto possimus adipisci sequi, necessitatibus porro maxime laudantium!
+        <p>
           París, ciudad gastronómica
           París era el centro creativo culinario en el mundo. Gradualmente la industria de la
-          hospitalidad
-          se estableció. Los
-          modales en la mesa y el sabor francés se volvieron un modelo internacional.</p>
+          hospitalidad se estableció. Los modales en la mesa y el sabor francés se volvieron un modelo
+          internacional.
+        </p>
 
-
-
-
-        <p>Desde 1950, la cocina de esta ciudad no ha tenido variaciones culinarias
-          revolucionarias
-          como
-          en el pasado. Sin
-          embargo, continua siendo un icono mundial. Los parisinos se toman tiempo preparando
-          sus
-          comidas de acuerdo a la
-          temporada, sea en sus casas o en un restaurante. Los almuerzos del domingo tienen tres
-          o
-          cuatro platillos
-          incluidos.</p>
+        <p>
+          Desde 1950, la cocina de esta ciudad no ha tenido variaciones culinarias revolucionarias
+          como en el pasado. Sin embargo, continua siendo un icono mundial. Los parisinos se toman
+          tiempo preparando sus comidas de acuerdo a la temporada, sea en sus casas o en un
+          restaurante. Los almuerzos del domingo tienen tres o cuatro platillos incluidos.
+        </p>
 
 
 
