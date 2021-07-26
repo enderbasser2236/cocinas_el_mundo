@@ -86,7 +86,6 @@ h6 {
   background-size: cover;
   background-position-y: 100%;
   color: #fff;
-  padding: 10px 10px;
   position: relative;
   z-index: 0;
   text-align: center;
@@ -98,51 +97,37 @@ h6 {
   font-size: 3rem;
   line-height: 1.5;
   display: inline-block;
-  padding-bottom: 30px;
+  padding: 15px;
 }
 
 .header__img {
   border: solid 1px;
   border-color: black;
   border-radius: 40%;
-  width: 120px;
+  width: 100px;
+  display: inline-block;
   position: absolute;
-  left: 10px;
-  top: 5px;
-  padding: 5px;
-  border: none;
+  left: 2%;
+  top: 3%;
 }
 
 #imgAnimation {
   display: inline-block;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-nav a:hover {
-  color: aqua;
-}
-
-.navMenu {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  bottom: 0px;
-}
-
 /* main section */
 /* main block******************************************************************************* */
+main p {
+  padding: 0 50px;
+}
+
 .principal--style {
-  padding: 50px;
   line-height: 2rem;
+  display: block;
 }
 
 .principal__subtitle {
   text-align: center;
-  padding-bottom: 30px;
   padding-top: 30px;
 }
 
@@ -168,11 +153,7 @@ nav a:hover {
 
 main {
   grid-area: main;
-  padding: 20px 0;
-}
-
-main p {
-  font-weight: 600;
+  padding-top: 30px;
 }
 
 #carousel P {
@@ -194,6 +175,12 @@ main p {
 
 .aviso {
   text-align: center;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.contactForm2 {
+  display: none;
 }
 
 /* side bar section */
@@ -349,5 +336,30 @@ body {
   bottom: 10%;
 }
 
+@media (max-width: 1028px) {
+  .sideBar {
+    display: none;
+  }
+
+  body {
+    grid-template-columns: 50% 50%;
+  }
+
+  .contactForm2 {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+  }
+}
+@media (max-width: 650px) {
+  .principal__img2 {
+    height: 50vh;
+  }
+
+  .header__img {
+    display: none;
+  }
+}
 /* -------------------------------------------BLOQUES--------------------------------------- */
 /* los bloques se encuentran en su respectiva hoja de estilo SCSS********************************************************************************************************************************//*# sourceMappingURL=styles.css.map */

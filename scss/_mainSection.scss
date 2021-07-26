@@ -2,16 +2,22 @@
 
 /* main block******************************************************************************* */
 
-.principal--style{
+main p{
+  padding: 0 50px;
+  ;
+}
 
-  padding: 50px;
+.principal--style {
+
+
   line-height: 2rem;
+  display: block;
+  
 
 }
 
 .principal__subtitle {
   text-align: center;
-  padding-bottom: 30px;
   padding-top: 30px;
 }
 
@@ -39,14 +45,9 @@
 
 main {
   grid-area: main;
-  padding: 20px 0;
+  padding-top: 30px;
 
 }
-
-main p {
-  font-weight: 600;
-}
-
 
 
 #carousel P {
@@ -59,16 +60,22 @@ main p {
 }
 
 
-.carousel-icon-next{
+.carousel-icon-next {
   background-image: url(https://icons-for-free.com/download-icon-next+right+icon-1320166862802397293_512.png);
 
 }
 
-.carousel-icon-prev{
+.carousel-icon-prev {
   background-image: url(https://icons-for-free.com/download-icon-left+previous+icon-1320166862746760425_512.png);
-  
+
 }
 
-.aviso{
+.aviso {
   text-align: center;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.contactForm2 {
+  display: none;
 }

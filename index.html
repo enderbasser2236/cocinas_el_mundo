@@ -41,34 +41,37 @@
       <h1 class="animate__animated animate__fadeInUp">Cocinas del Mundo</h1>
     </div>
 
-    <nav>
-
-      <div class="navMenu">
-
-        <div class="btn btn-dark">
-          <a href="index.html">Inicio</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/pages/spain-food.html">Española</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/french-food.html">Francesa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/italian-food.html">Italiana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/mexican-food.html">Mexicana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/venezuelan-food.html" tabindex="-1" aria-disabled="true">Venezolana</a>
+            </li>
+          </ul>
         </div>
-        <div class="btn btn-dark">
-          <a href="pages/french-food.html">Francesa</a>
-        </div>
-        <div class="btn btn-dark">
-          <a href="pages/spain-food.html">Española</a>
-        </div>
-        <div class="btn btn-dark">
-          <a href="pages/mexican-food.html">Mexicana</a>
-        </div>
-        <div class="btn btn-dark">
-          <a href="pages/italian-food.html">Italiana</a>
-        </div>
-        <div class="btn btn-dark">
-          <a href="pages/venezuelan-food.html">Venezolana</a>
-        </div>
-
       </div>
-
     </nav>
 
   </header>
+
+
 
   <main class="background__principal principal--style">
 
@@ -151,6 +154,47 @@
 
 
 
+    <!-- RESPONSIVE CONTAC FORM -->
+
+    <div class="contactForm2">
+
+      <section id="contactForm">
+
+        <div class="contactForm">
+
+
+          <h3>Contacto</h3>
+
+          <form class="" action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <div class="contactForm__item"><input type="text" name="nombre" id="nombre" /></div>
+            <label for="apellido">Apellido</label>
+            <div class="contactForm__item"><input type="text" name="apellido" id="apellido" /></div>
+            <label for="genero">Pais</label>
+            <div class="contactForm__item"><select class="" name="pais">
+                <option value="venezuela">Venezuela</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="colombia">Colombia</option>
+                <option value="argentina">Argentina</option>
+              </select></div>
+            <label for="acepto">¿Acepta compartir informacion personal?</label>
+            <div class="contactForm__item"><input type="checkbox" name="acepto" value="1" /></div>
+            <div class="contactForm__item"><input type="reset" name="reset" placeholder="reset" />
+            </div>
+            <div class="contactForm__item"><input type="submit" name="enviar"
+                placeholder="Enviar" />
+            </div>
+          </form>
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- END OF RESPONSIVE CONTACT FORM -->
+
+
   </main>
 
   <!-- this is my side bar -->
@@ -159,9 +203,9 @@
   <aside class="sideBar">
 
 
-        <img class="historyImg" src="img/foodfromtheworld.jpg" alt="HistoryImage">
+    <img class="historyImg" src="img/foodfromtheworld.jpg" alt="HistoryImage">
 
-      
+
 
     <!-- seccion de contacto *************************************************************************-->
 
@@ -197,6 +241,7 @@
     </section>
 
   </aside>
+
 
 
 
