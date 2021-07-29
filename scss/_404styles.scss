@@ -1,18 +1,20 @@
-body{
+body {
 	background-color: #fffaea;
 }
 
-.contain{
+.contain {
 	height: 400px;
 	width: 400px;
 	left: 50%;
 	top: 50%;
 	position: absolute;
 	transform: translatex(-50%) translatey(-50%);
-	svg{
+
+	svg {
 		vertical-align: top;
 		width: 100%;
-		.beer{
+
+		.beer {
 			animation-name: empty;
 			animation-fill-mode: forwards;
 			animation-duration: 4s;
@@ -21,29 +23,34 @@ body{
 		}
 	}
 }
-@keyframes empty{
-	0%{
+
+@keyframes empty {
+	0% {
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-	} 
-	30%{
+	}
+
+	30% {
 		clip-path: polygon(0 16%, 100% 12%, 100% 100%, 0% 100%);
 	}
-	50%{
+
+	50% {
 		clip-path: polygon(0 40%, 100% 44%, 100% 100%, 0% 100%);
 	}
-	70%{
+
+	70% {
 		clip-path: polygon(0 69%, 100% 66%, 100% 100%, 0% 100%);
 	}
-	100%{
+
+	100% {
 		clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
 	}
 }
 
-.home-link{
-    display: inline-block;
-    text-align: center;
-    position: absolute;
-    left: 45%;
-    bottom: 10%;
+.home-link {
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	left: 45%;
+	bottom: 10%;
 
 }

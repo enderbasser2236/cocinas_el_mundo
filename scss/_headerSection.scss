@@ -1,41 +1,40 @@
  /* header section */
 
  /* header block ***************************************************************************************/
-.header {
-  grid-area: header;
-  background-image: url(../img/wood2.jpeg);
-  background-size: cover;
-  background-position-y: 100%;
-  color: #fff;
-  position: relative;
-  z-index: 0;text-align: center;
-}
+ .header {
+   grid-area: header;
+   background-image: url(../img/wood2.jpeg);
+   background-size: cover;
+   background-position-y: 100%;
+   color: #fff;
+   position: relative;
+   z-index: 0;
+   text-align: center;
+ }
 
-.header__bigHeader {
+ .header__bigHeader {
 
-  color: #fff;
-  text-shadow: 3px 3px 2px #000000;
-  font-size: 3rem;
-  line-height: 1.5;
-  display: inline-block;
-  padding:15px;
-  
-}
+   color: #fff;
+   text-shadow: 3px 3px 2px #000000;
+   font-size: 3rem;
+   line-height: 1.5;
+   display: inline-block;
+   padding: 15px;
 
-.header__img {
-  border: solid 1px;
-  border-color: rgb(0, 0, 0);
-  border-radius: 40%;
-  width: 100px;
-  display: inline-block;
-  position: absolute;
-  left: 2%;
-  top: 3%;
+ }
 
-}
+ .header__img {
+   border: solid 1px;
+   border-color: rgb(0, 0, 0);
+   border-radius: 40%;
+   width: 100px;
+   display: inline-block;
+   position: absolute;
+   left: 2%;
+   top: 3%;
+
+ }
 
  #imgAnimation {
    display: inline-block;
  }
-
- 
