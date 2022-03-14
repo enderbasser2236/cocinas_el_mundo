@@ -45,7 +45,8 @@ main p {
 
 main {
   grid-area: main;
-  padding-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 30px;
 
 }
 
@@ -71,9 +72,12 @@ main {
 }
 
 .aviso {
+  color: rgb(0, 0, 0);
   text-align: center;
-  font-weight: 600;
-  padding: 20px;
+  font-size: large;
+  padding-top: 15px;
+text-shadow:  -1px 1px 1px #ffffff;
+  
 }
 
 .contactForm2 {

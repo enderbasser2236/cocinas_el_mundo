@@ -153,7 +153,8 @@ main p {
 
 main {
   grid-area: main;
-  padding-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 30px;
 }
 
 #carousel P {
@@ -174,9 +175,11 @@ main {
 }
 
 .aviso {
+  color: black;
   text-align: center;
-  font-weight: 600;
-  padding: 20px;
+  font-size: large;
+  padding-top: 15px;
+  text-shadow: -1px 1px 1px #ffffff;
 }
 
 .contactForm2 {
@@ -186,7 +189,7 @@ main {
 /* side bar section */
 /* sideBar block********************************************************************** */
 .sideBar {
-  background: linear-gradient(0deg, #1f0101 26%, wheat 85%);
+  background: linear-gradient(0deg, #361800 26%, wheat 85%);
   grid-area: sideBar;
   display: inline-block;
   position: fixed;
@@ -343,6 +346,14 @@ body {
 
   body {
     grid-template-columns: 50% 50%;
+  }
+
+  main {
+    padding-bottom: 0px;
+  }
+
+  #carousel {
+    padding-bottom: 30px;
   }
 
   .contactForm2 {
